@@ -1,0 +1,22 @@
+.head{
+    background: url(../img/contactus1.png);
+    height: 253px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+.contact-us-detail p {
+    color: #646464;
+}
+.contact-us-detail span {
+    color: #A97E45;
+}
+.contact-us-detail h5 {
+    color: #A97E45;
+}
+.contact-us-detail {
+    margin-top: 2rem;
+}
