@@ -29,10 +29,8 @@
 }
 
 label.form-control.upload-img.for-upload-the-img {
-    width: 148px;
+    width: 135px;
     text-align: center;
-    /* height: 58%; */
-    padding: 15px 0px;
     color: #707070;
     font-family: "Montserrat-regular";
     font-size: 12px;
@@ -81,7 +79,7 @@ label.form-control.upload-img.for-upload-the-img span {
 }
 
 .apply-now-form {
-    padding-bottom: 253px;
+    padding-bottom: 40px;
 }
 
 .for-vox-shadow {
@@ -94,40 +92,34 @@ label.form-control.upload-img.for-upload-the-img span {
     justify-content: space-between;
     align-items: center;
 }
-
 .for-terms-and-conditions label {
-    color: #000000;
+    color: #111111;
     font-family: "Poppins-Regular";
     font-size: 13px;
 }
-
 .submit-the-form button {
     color: #FFFFFF;
     background-color: #111111;
-    padding: 10.5px 70px;
+    padding: 13px 53px;
     border: 0px;
     font-family: "Poppins-Regular";
     border-radius: 4px;
     font-size: 13px;
 }
-
 .submit-the-form {
     text-align: right;
 }
-
 @media screen and (min-width: 991px) {
     .top-text-start p {
         width: 80%;
         margin-left: 10%;
     }
 }
-
 @media screen and (max-width: 768px) {
-    .for-submit-the-form {
+    .for-submit-the-form{
         display: unset;
     }
-
-    .for-terms-and-conditions {
+    .for-terms-and-conditions{
         display: flex;
     }
 }
