@@ -1,0 +1,43 @@
+p.haveacc a {
+    font-family: 'mont';
+}
+p.haveacc {
+    font-family: 'mont';
+    font-size: 14px;
+    text-align: right;
+}
+.head{
+    background: url(../img/contactus1.png);
+    height: 253px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+.contact-us-detail p {
+    color: #646464;
+}
+section.section-detail-form .contact-us-detail span {
+    color: #A97E45;
+}
+section.section-detail-form .contact-us-detail h5 {
+    color: #A97E45;
+}
+section.section-detail-form .contact-us-detail {
+    margin-top: 2rem;
+}
+section.section-detail-form .form-group {
+    display: block;
+    /* margin-bottom: 15px; */
+  }
+  label.monthys{
+      margin: 0;
+  }
+  p.haveacc a {
+    color: #000;
+}
+section.section-detail-form {
+    padding: 3rem 0;
+}

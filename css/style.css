@@ -15,7 +15,14 @@ body {
   font-family: "playfair-regular";
   src: url(../fonts/playfair_display/PlayfairDisplay-Regular.ttf);
 }
-
+@font-face {
+  font-family: "tmo";
+  src: url(../fonts/TextMeOne-Regular.ttf);
+}
+@font-face {
+  font-family: "mont";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
 @font-face {
   font-family: "keiraseriffree-regular";
   src: url(../fonts/keiraseriffree/KeiraseriffreeRegular.otf);
@@ -58,22 +65,42 @@ h4,
 h5,
 h6 {
   font-family: "playfair-regular";
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
 }
 
 p {
   font-family: "playfair-regular";
 }
-
+label{
+  font-family: "mont";
+  font-size: 15px;
+  color: #2A263D;
+}
 a.btn {
   padding: 15px 35px;
   border-radius: 0px;
 }
-
+.custombtn{
+  font-family: "tmo";
+  border: 1px solid #CCCCCC;
+    background: transparent;
+    color: #000;
+    padding: 0.5rem;
+}
 a {
   font-family: "playfair-regular";
 }
-
+header#header {
+  padding: 2rem 5rem;
+}
+.header-icon i {
+  font-size: 22px;
+  color: #fff;
+  background: #000;
+  margin-right: 10px;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
 /* Prelaoder */
 #preloader {
   position: fixed;
@@ -195,7 +222,7 @@ li.nav-link a {
   font-size: 24px;
   /* background:; */
   padding: 5px 7px;
-  color: #fff;
+  color: #000;
   display: unset;
 }
 
@@ -303,14 +330,14 @@ body {
 .logo-in-top h1 {
   font-family: "keiraseriffree-regular";
   font-size: 45px;
-  color: #FFFFFF;
+  color: #000;
   margin-bottom: 0px !important;
 }
 
 .logo-in-top h6 {
   font-family: "playfair-regular";
   font-size: 13.5px;
-  color: #FFFFFF;
+  color: #000;
 }
 
 .banner-text-section {

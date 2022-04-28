@@ -21,9 +21,30 @@
 
 
 <header id="header">
-    <div class="canvas-icon text-right">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+    <div class="row align-items-center">
+        <div class="col-md-4">
+            <div class="canvas-icon text-left">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="logo-in-top">
+                <div>
+                    <h1>FORBID</h1>
+                    <h6>THE LUXURY DRINK</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="text-center header-icon">
+                <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+            </div>
+        </div>
     </div>
+
+
     <!-- Nav section  -->
 
     <div class="mobile-header navbar-dark">
@@ -42,7 +63,9 @@
             <li class="nav-link"><a class="text-black" href="career.php">Career</a></li>
             <li class="nav-link"><a class="text-black" href="about.php">About Us</a></li>
             <li class="nav-link"><a class="text-black" href="contactus.php">Report a crime</a></li>
-            <li class="d-flex for-search-in-nav"><input type="text" placeholder="Search.."><div class="searchbtn"><img src="img/search.png" alt=""></div></li>
+            <li class="d-flex for-search-in-nav"><input type="text" placeholder="Search..">
+                <div class="searchbtn"><img src="img/search.png" alt=""></div>
+            </li>
         </ul>
     </div>
 </header>

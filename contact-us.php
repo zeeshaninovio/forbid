@@ -13,7 +13,7 @@
             </p>
         </div>
     </section>
-    <section>
+    <section class="section-detail-form">
         <div class='container'>
             <div class="row">
                 <div class="col-md-2"></div>
@@ -32,63 +32,80 @@
                         <p>State of California ID # TSW 385</p>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-5">
                     <div class="contact-us-form">
                         <form>
                             <div class="row">
+                                <div class="col-lg-12">
+                                    <h5>Contact Form</h5>
+                                </div>
+                            </div>
+                            <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label for="inputname">Name</label>
+                                        <label for="inputname">First Name</label>
                                         <input type="text" class="form-control" id="inputname" required="">
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
-                                        <label for="inputemail">E-mail</label>
+                                        <label for="inputname">Last Name</label>
+                                        <input type="text" class="form-control" id="inputname" required="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="">
+                                        <label for="inlineFormInputGroup">Phone</label>
+                                        <input type="tel" class="form-control" name="number" id="number" required="">
+                                        <div class="input-group mb-2">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="inputemail">Email</label>
                                         <input type="email" class="form-control" id="inputemail" required="">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="">
-                                        <label for="inlineFormInputGroup">Phone Number</label>
-                                        <input type="tel" class="form-control" name="number" id="number"
-                                            placeholder="+ 123 456 789" required="">
-                                        <div class="input-group mb-2">
-
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-6">
-                                    <div class="">
-                                        <label for="inputdate">Date</label>
-                                        <input type="text" class="form-control" name="inputdate" id="inputdate"
-                                            placeholder="mm/dd/yyyy" required="">
-                                        <div class="input-group mb-2">
-
-
-                                        </div>
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">Your Subject</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
+                                            required=""></textarea>
                                     </div>
                                 </div>
                             </div>
-
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <label for="exampleFormControlTextarea1">Message *</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
-                                            required="" placeholder="Message"></textarea>
+
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"
+                                            required=""></textarea>
                                     </div>
                                 </div>
                             </div>
-                            <input class="contact-submit" type="submit" value="book online now">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <input type="checkbox" id="monthlynews">
+                                        <label class="monthys" for="monthlynews">Click Here for Monthly
+                                            Newsletter</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 text-right">
+                                    <input class="contact-submit custombtn" type="submit" value="SEND MESSAGES">
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
-                <div class="col-md-2"></div>
+                <div class="col-md-1"></div>
             </div>
         </div>
     </section>

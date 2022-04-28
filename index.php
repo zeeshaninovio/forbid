@@ -1,15 +1,35 @@
+<!-- header section-->
+<?php include 'inc/app.php'; ?>
+<!-- header section-->
+
+<style>
+    header#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 5rem;
+}
+    #header .canvas-icon i{
+        color: #fff;
+    }
+    .logo-in-top h1{
+        color: #fff;
+    }
+    .all-nav {
+    display: none;
+}
+.logo-in-top h6{
+    color: #fff;
+}
+</style>
+
 <!--  Start Here -->
 <section class="banner-homepage">
     <div class="container-fluid px-0 mx-0">
         <div class="main-header-icon">
-            <?php include 'inc/app.php'; ?>
         </div>
-        <div class="logo-in-top">
-            <div>
-                <h1>FORBID</h1>
-                <h6>THE LUXURY DRINK</h6>
-            </div>
-        </div>
+        
         <div class="banner-text-section">
             <div class="banner-text-start">
                 <h4>Wine is for</h4>

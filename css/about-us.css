@@ -1,0 +1,31 @@
+p.haveacc {
+    font-family: 'mont';
+    font-size: 14px;
+    text-align: right;
+}
+.head{
+    background: url(../img/contactus1.png);
+    height: 253px;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}.h-center {
+    margin: auto;
+}
+section.section-detail-form {
+    padding: 2rem 0;
+}
+.h-center p {
+    color: #AFAFAF;
+}
+.h-center1 p {
+    color: #AFAFAF;
+}
+.slick-prev:before {
+    content: " ";
+    background: url(../img/previous.png);
+    background-size: 300px 100px;
+}
