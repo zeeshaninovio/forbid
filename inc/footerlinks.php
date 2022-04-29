@@ -2,7 +2,9 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
 <!-- Jquery JS -->
    <!-- Bootstrap CDN -->
-   <script src="js/bootstrap.min.js"></script>
+   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="js/scripts.js"></script>
     <!-- Bootstrap CDN -->
 <!-- Slick Slider CDN -->
@@ -131,5 +133,43 @@ $('.ourbrandcarousel').slick({
   ]
 });
 // our brand page carouse end
+// shop page start here
+$('.sproduct').slick({
+  dots: true,
+  autoplay:true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+// shop page end here
 
 </script>

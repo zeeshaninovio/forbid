@@ -40,10 +40,10 @@
                                 </div>
                             </div>
                             <div class="row align-items-center">
-                                <div class="col-md-8">
+                                <div class="col-md-7">
 
                                 </div>
-                                <div class="col-md-4 text-right">
+                                <div class="col-md-5 text-right">
                                     <a type="submit" class="custombtn" href="forgetpassword2.php">CONFIRM PASSWORD
                                         <!-- <input class="contact-submit custombtn" type="submit" value="SIGN IN"> -->
                                         <!-- <button type="submit" class="custombtn">SIGN IN</button> -->

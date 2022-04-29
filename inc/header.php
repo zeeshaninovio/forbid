@@ -30,8 +30,9 @@
         <div class="col-md-4">
             <div class="logo-in-top">
                 <div>
-                    <h1>FORBID</h1>
-                    <h6>THE LUXURY DRINK</h6>
+                    <img src="img/headlogo.png" class="img-fluid" alt="">
+                    <!-- <h1>FORBID</h1>
+                    <h6>THE LUXURY DRINK</h6> -->
                 </div>
             </div>
         </div>
@@ -57,12 +58,10 @@
         </div>
         <ul class="mobile-nav navbar-nav">
             <li class="nav-link"><a class="text-black" href="index.php">Home</a></li>
-            <li class="nav-link"><a class="text-black" href="news.php">News Updates</a></li>
-            <li class="nav-link"><a class="text-black" href="most-wanted.php">Most Wanted</a></li>
-            <li class="nav-link"><a class="text-black" href="">Inmate Services</a></li>
-            <li class="nav-link"><a class="text-black" href="career.php">Career</a></li>
-            <li class="nav-link"><a class="text-black" href="about.php">About Us</a></li>
-            <li class="nav-link"><a class="text-black" href="contactus.php">Report a crime</a></li>
+            <li class="nav-link"><a class="text-black" href="news.php">Shop</a></li>
+            <li class="nav-link"><a class="text-black" href="about-us.php">About Us</a></li>
+            <li class="nav-link"><a class="text-black" href="contact-us.php">Contacts</a></li>
+            <li class="nav-link"><a class="text-black" href="signin.php">Sign In</a></li>
             <li class="d-flex for-search-in-nav"><input type="text" placeholder="Search..">
                 <div class="searchbtn"><img src="img/search.png" alt=""></div>
             </li>

@@ -67,7 +67,16 @@ h6 {
   font-family: "playfair-regular";
   /* color: #FFFFFF; */
 }
-
+.head{
+  background: url(../img/contactus1.png);
+  height: 253px;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
 p {
   font-family: "playfair-regular";
 }
@@ -85,7 +94,16 @@ a.btn {
   border: 1px solid #CCCCCC;
     background: transparent;
     color: #000;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0;
+}
+.custombtn1{
+  font-family: "tmo";
+  border: 1px solid #CCCCCC;
+    background: transparent;
+    color: #6D6D6D;
+    padding: 0.5rem 1rem;
+    border-radius: 0;
 }
 a {
   font-family: "playfair-regular";

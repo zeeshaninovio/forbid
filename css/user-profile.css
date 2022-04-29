@@ -1,0 +1,965 @@
+/* / profile section css starts here / */
+figure {
+  margin: 0;
+}
+.profile a {
+  outline: none !important;
+}
+.profile {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.profile h2.profile-heading {
+  color: #2a263d;
+  font-size: 43px;
+  font-weight: 700;
+}
+.profile h3.username {
+  color: #2a263d;
+  font-family: "Montserrat";
+  font-size: 25px;
+}
+.profile-img img {
+  /* margin-top: -96px; */
+  height: 130px;
+    width: 120px;
+}
+.profile button.logout-btn {
+  background-color: #f35f63;
+  color: #ffffff;
+  padding: 13px 45px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.profile .img-and-username-wrapper {
+  padding: 11px;
+  text-align: center;
+  border-bottom: 1px solid #dadada;
+  border-radius: 0;
+}
+.profile-tabs-wrapper {
+  padding: 10px 0px;
+  border: 1px solid #dadada;
+}
+.profile-tabs-wrapper .nav-pills .nav-link.active {
+  background: transparent;
+  color: inherit;
+}
+.profile .profile-row {
+  padding-top: 100px;
+}
+.profile-img {
+  position: relative;
+}
+.profile-img .edit-img a {
+  position: absolute;
+  right: 23%;
+  bottom: 2px;
+  background: #eeeeee;
+  padding: 8px;
+  display: flex;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  color: #f35f63;
+}
+.profile .profile-links-wrapper {
+  padding: 30px;
+  padding-bottom: 81px;
+}
+.profile .profile-links-wrapper a.nav-link {
+  color: #2a263d !important;
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 600;
+}
+@media (max-width: 926px) {
+  .edit-img {
+    position: relative;
+  }
+  .profile-img .edit-img a {
+    right: 43%;
+  }
+}
+@media (max-width: 630px) {
+  .edit-img {
+    position: relative;
+  }
+  .profile-img .edit-img a {
+    right: 43%;
+    bottom: -9px;
+  }
+}
+/* / account form css starts here / */
+.account-form-wrapper input {
+  border-radius: 0px;
+  border: 1px solid #b8b8b8;
+}
+.profile .account-form-wrapper label {
+  color: #2a263d;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile .account-form-wrapper button.btn-submit {
+  background: #f35f63;
+  padding: 15px 40px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+}
+h3.form-heading {
+  font-size: 30px;
+  color: #2a263d;
+}
+.account-form-wrapper form {
+  margin-top: 34px;
+}
+/* / account form css ends here / */
+/* / order table starts here / */
+.order-table-wrapper {
+  padding-top: 40px;
+}
+.order-table-wrapper tr.row1 th {
+  padding: 23px 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #2a263d;
+}
+.order-table-wrapper tr.row2 td {
+  padding: 18px 20px;
+  text-align: center;
+}
+.profile .order-table-wrapper tr.row2 td {
+  border-bottom: 1px solid #c7c7c7;
+  border-top: 1px solid #c7c7c7;
+}
+.profile .order-table-wrapper tr.row2 td:first-child {
+  border-left: 1px solid #c7c7c7;
+}
+.profile .order-table-wrapper tr.row2 td:last-child {
+  border-right: 1px solid #c7c7c7;
+}
+.order-table-wrapper .row2 td {
+  color: #2a263d;
+  font-family: "Montserrat";
+  font-size: 16px;
+}
+.profile .order-table-wrapper td.paid {
+  color: #00bc26;
+}
+.order-table-wrapper .order-details a {
+  color: #A97E45;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-decoration: underline;
+}
+.pagination-wrapper a.page-link {
+  display: flex;
+  line-height: 0px;
+  height: unset;
+  margin: 5px;
+  padding: 14px;
+  justify-content: center;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  color: #6e6e6e;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  border: 0;
+}
+.pagination li a i {
+  line-height: 0px;
+}
+ul.pagination li.page-item:first-child a.page-link,
+ul.pagination li.page-item:last-child a.page-link {
+    border-radius: 0px !important;
+    background: transparent;
+    border: 0px;
+    color: #000;
+    font-size: 25px;
+}
+.pagination-wrapper .active a.page-link {
+    color: #fff;
+    background: #A97E45;
+    border-color: #A97E45;
+}
+/* / order responsive start here / */
+@media (max-width: 1100px) {
+  .order-table-wrapper tr.row1 th {
+    padding: 23px 9px;
+    font-size: 14px;
+  }
+  .order-table-wrapper .row2 td {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1018px) {
+  .order-table-wrapper .row2 td {
+    font-size: 13px;
+  }
+}
+@media (max-width: 700px) {
+  .order-table-wrapper tr.row2 td {
+    padding: 9px 7px;
+  }
+}
+/* / order responsive ends here / */
+/* / order table ends here / */
+/* / modal css starts here / */
+.profile-row button.close span {
+  color: #f35f63;
+}
+.profile .modal-dialog {
+  max-width: 41%;
+}
+.close {
+  opacity: 1;
+}
+.modal-header .close {
+  margin: 0;
+}
+.model-header {
+  text-align: center;
+  padding: 20px 11px;
+}
+.profile-row h5#exampleModalLongTitle {
+  font-size: 43px;
+  font-family: "Montserrat";
+  color: #f35f63;
+}
+.profile-row .model-header h6 {
+  color: #2a263d;
+  font-family: "Montserrat";
+  font-size: 37px;
+  font-weight: 400;
+}
+.model-header button.close {
+  margin-top: -92px;
+  margin-right: 24px;
+}
+.product-deatail-wrapper {
+  padding: 0px 30px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.modal-open .modal {
+  overflow: scroll !important;
+  /* -ms-overflow-style: none; / IE and Edge / */
+  scrollbar-width: none;
+}
+.modal-open .modal::-webkit-scrollbar {
+  display: none;
+}
+.product-img {
+  flex: 2;
+}
+.product-content {
+  flex: 5;
+}
+.product-price {
+  flex: 1;
+}
+.profile .modal-body h6 {
+  color: #f35f63;
+  font-family: "Montserrat";
+  font-size: 20px;
+}
+h6.product-price {
+  font-size: 21px;
+  font-weight: 600;
+}
+h6.product-size {
+  color: #1f2c35 !important;
+  font-weight: 400;
+  font-size: 17px !important;
+}
+h5.product-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+.product-deatail-wrapper {
+  margin: 20px auto !important;
+  width: 80%;
+}
+.product-deatail-wrapper.active {
+  border-right: 3px solid #ef5d61;
+  margin: 10px 0px;
+}
+.order-details-wrapper {
+  padding: 0px 32px;
+}
+
+.order-details-wrapper h6 {
+  display: flex;
+  justify-content: space-between;
+  color: #000000 !important;
+  font-size: 17px !important;
+  font-weight: 500;
+}
+.order-details-wrapper {
+  padding: 0px 80px;
+}
+/* / responsive starts here / */
+@media (max-width: 1345px) {
+  .profile .modal-dialog {
+    max-width: 51% !important;
+  }
+}
+@media (max-width: 1130px) {
+  .profile .modal-dialog {
+    max-width: 61% !important;
+  }
+}
+@media (max-width: 936px) {
+  .profile .modal-dialog {
+    max-width: 71% !important;
+  }
+}
+@media (max-width: 822px) {
+  .profile .modal-dialog {
+    max-width: 81% !important;
+  }
+}
+@media (max-width: 758px) {
+  .product-deatail-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .product-deatail-wrapper.active {
+    border-right: none;
+    border-bottom: 3px solid #ef5d61;
+    margin: 10px 0px;
+  }
+}
+@media (max-width: 563px) {
+  .profile .modal-dialog {
+    max-width: 81% !important;
+    margin: 30px auto;
+  }
+  .order-details-wrapper h6 {
+    display: inline-block;
+  }
+  .order-details-wrapper {
+    padding: 0px 52px;
+    text-align: center;
+  }
+}
+/* / responsive ends here / */
+/* / modal css ends here / */
+/* / wishlist css starts here / */
+.wishlist-table-wrapper {
+  margin-top: 40px;
+}
+.wishlist-table-wrapper tr.row1 th {
+  padding: 13px;
+  background: #f2f2f2;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+.wishlist-table-wrapper tr.row1 th.wish-img {
+  width: 16%;
+}
+.wishlist-table-wrapper td.wishlist-product h4 {
+  color: #1f2c35;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile-img figure {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    border: 3px solid #f35f63;
+    border-radius: 50%;
+    margin-top: -96px;
+}
+.profile-img a.chnage {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: white;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: #AC0000;
+    font-size: 7px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wishlist-table-wrapper td.wishlist-price h6 {
+  color: #A97E45;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+.wishlist-table-wrapper td.wishlist-cancel i {
+  color: #A97E45;
+  font-size: 23px;
+}
+.wishlist-table-wrapper tr.row2 td {
+  margin: 0;
+  padding: 0;
+}
+.wishlist-table-wrapper tr.row2 {
+  border-bottom: 1px solid #707070;
+}
+.wishlist-table-wrapper tr.row2:last-child {
+  border-bottom: none;
+}
+/* / responsive css starts here / */
+@media (max-width: 600px) {
+  .wishlist-table-wrapper tr.row1 th {
+    text-align: center;
+  }
+
+  .wishlist-table-wrapper tr.row2 td {
+    text-align: center;
+  }
+}
+/* / wishlist css ends here / */
+/* / security form starts here / */
+.security-form-wrapper input {
+  border-radius: 0px;
+  border: 1px solid #b8b8b8;
+}
+.profile .account-form-wrapper label {
+  color: #2a263d;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile .security-form-wrapper button.btn-submit {
+  background: #f35f63;
+  padding: 15px 40px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+}
+/* / security form ends here / */
+/* / address form starts here / */
+.address-form-wrapper input {
+  border-radius: 0px;
+  border: 1px solid #b8b8b8;
+}
+.profile .address-form-wrapper label {
+  color: #2a263d;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 500;
+}
+.profile .address-form-wrapper button.btn-submit {
+  background: #f35f63;
+  padding: 15px 40px;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+}
+/* / saved adress css starts here / */
+/* 
+.plans {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  max-width: 970px;
+  padding: 85px 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 8px 10px 0px #d8dfeb;
+  box-shadow: 0px 8px 10px 0px #d8dfeb;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+} */
+
+.plans .plan input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+
+.plans .plan {
+  cursor: pointer;
+  width: 100%;
+}
+
+.plans .plan .plan-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  padding: 23px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 2px solid #707070;
+  border-radius: 0px;
+  -webkit-transition: -webkit-box-shadow 0.4s;
+  transition: -webkit-box-shadow 0.4s;
+  -o-transition: box-shadow 0.4s;
+  transition: box-shadow 0.4s;
+  transition: box-shadow 0.4s, -webkit-box-shadow 0.4s;
+  position: relative;
+}
+
+.plans .plan .plan-content img {
+  margin-right: 30px;
+  height: 72px;
+}
+
+.plans .plan .plan-details span {
+  margin-bottom: 10px;
+  display: block;
+  font-size: 20px;
+  line-height: 24px;
+  color: #252f42;
+}
+
+.container .title {
+  font-size: 16px;
+  font-weight: 500;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  color: #252f42;
+  margin-bottom: 20px;
+}
+
+.plans .plan .plan-details p {
+  color: #646a79;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.plans .plan .plan-content:hover {
+  -webkit-box-shadow: 0px 3px 5px 0px #e8e8e8;
+  box-shadow: 0px 3px 5px 0px #e8e8e8;
+}
+
+.plans .plan input[type="radio"]:checked + .plan-content:after {
+  content: "";
+  position: absolute;
+  height: 12px;
+  width: 12px;
+  background: #A97E45;
+  right: 20px;
+  bottom: 39px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  -webkit-box-shadow: 0px 0px 0px 2px #A97E45;
+  box-shadow: 0px 0px 0px 2px #A97E45;
+}
+/* .plans .plan input[type="radio"] + .plan-content:after {
+  content: "";
+  position: absolute;
+  height: 12px;
+  width: 12px; */
+/* / background: #F35F63; / */
+/* right: 20px;
+  bottom: 39px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  -webkit-box-shadow: 0px 0px 0px 2px #f35f63;
+  box-shadow: 0px 0px 0px 2px #f35f63;
+} */
+
+.plans .plan input[type="radio"]:checked + .plan-content {
+  border: 2px solid #A97E45;
+  /* / background: #eaf1fe; / */
+  -webkit-transition: ease-in 0.3s;
+  -o-transition: ease-in 0.3s;
+  transition: ease-in 0.3s;
+}
+.saved-address .edits h6 {
+  margin-right: 22px;
+}
+@media screen and (max-width: 991px) {
+  .plans {
+    margin: 0 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding: 40px;
+  }
+
+  .plans .plan {
+    width: 100%;
+  }
+
+  .plan.complete-plan {
+    margin-top: 20px;
+  }
+
+  .plans .plan .plan-content .plan-details {
+    width: 70%;
+    display: inline-block;
+  }
+
+  .plans .plan input[type="radio"]:checked + .plan-content:after {
+    top: 45%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .plans .plan .plan-content .plan-details {
+    width: 60%;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .plans .plan .plan-content img {
+    margin-bottom: 20px;
+    height: 56px;
+    -webkit-transition: height 0.4s;
+    -o-transition: height 0.4s;
+    transition: height 0.4s;
+  }
+
+  .plans .plan input[type="radio"]:checked + .plan-content:after {
+    top: 20px;
+    right: 10px;
+  }
+
+  .plans .plan .plan-content .plan-details {
+    width: 100%;
+  }
+
+  .plans .plan .plan-content {
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+}
+.saved-address h4 {
+  color: #262626;
+  font-family: "Montserrat";
+  font-size: 20px;
+}
+.address-info span.phone {
+  margin-left: 13px;
+}
+.address-info span.states {
+  margin-left: 25px;
+}
+.edits {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.update a i {
+  color: #000000;
+  font-size: 24px;
+  margin: 2px;
+}
+.address-info h6 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+}
+.edits h6 {
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+@media (max-width: 923px) {
+  .address-form-wrapper {
+    padding-top: 77px;
+  }
+  .heading {
+    padding-top: 100px;
+  }
+  .security-form-wrapper {
+    padding-top: 90px;
+  }
+  div#v-pills-order h3.form-heading {
+    padding-top: 90px;
+  }
+}
+@media (max-width: 837px) {
+  .plans {
+    padding: 0px;
+  }
+}
+@media (max-width: 644px) {
+  .edits {
+    width: 40%;
+  }
+}
+@media (max-width: 563px) {
+  .edits {
+    width: 40%;
+  }
+}
+@media (max-width: 532px) {
+  .edits {
+    text-align: left !important;
+    width: 100%;
+  }
+  .edits {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+/* / address form ends here / */
+/* / / 2nd Tab Content Css Start Here / / */
+.profile .tab-content .card-details {
+  background: #f3f3f3;
+  padding: 30px 40px;
+  border-radius: 20px;
+}
+.profile .tab-content .card-details .radios {
+  opacity: 0;
+}
+.profile .tab-content .card-details .label figure img {
+  width: 100%;
+}
+.profile
+  .tab-content
+  .card-details
+  input:checked
+  ~ span.checkmark
+  .label
+  figure {
+  border: 5px solid #fff;
+  box-shadow: 0px 0px 0px 1px #a1c4a9;
+}
+.profile .tab-content .card-details .paymentCards {
+  display: flex;
+  align-items: center;
+}
+.profile .tab-content .card-details .paymentCards label {
+  width: 50px !important;
+  margin-right: 20px;
+}
+.profile .tab-content .saveCards {
+  padding-top: 30px;
+}
+/* .Myprofile .tab-content .saveCards .Yourcards {
+    background: #F3F3F3;
+    padding: 50px 40px;
+} */
+.profile .tab-content .Yourcards .cards .radio span.checkmark .label {
+  background: transparent;
+  width: 27px;
+  height: 27px;
+  border-radius: 50px;
+  border: 2px solid #a1c4a9;
+  text-align: center;
+  position: relative;
+  top: -7px;
+}
+.profile .tab-content .Yourcards .cards .radio input {
+  opacity: 0;
+}
+.profile .tab-content .Yourcards .cards .radio span.checkmark .label i {
+  background: #a1c4a9;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50px;
+  font-size: 12px;
+  color: #fff;
+  position: relative;
+  top: -2px;
+  left: -1px;
+  opacity: 0;
+}
+.profile
+  .tab-content
+  .Yourcards
+  .cards
+  .radio
+  input:checked
+  ~ span.checkmark
+  .label
+  i {
+  opacity: 1;
+}
+.profile .tab-content .Yourcards .cards {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+.profile .tab-content .Yourcards .cards .persnolCard {
+  display: flex;
+  align-items: center;
+}
+.profile .tab-content .Yourcards .cards .persnolCard figure img {
+  width: 50px;
+  margin: 0 10px;
+}
+.profile .tab-content .Yourcards .cards .persnolCard .form-group label {
+  font-size: 10px;
+  color: #000000;
+  font-family: "trade-bold";
+  margin-bottom: 0;
+}
+.profile .tab-content .Yourcards .cards .persnolCard .form-group input {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "trade-bold";
+  color: #000;
+}
+.profile.tab-content
+  .Yourcards
+  .cards
+  .persnolCard
+  .form-group
+  input:focus-visible {
+  outline: none;
+}
+.profile .tab-content .Yourcards .cards .editBtn a {
+  color: #000000;
+  font-size: 10px;
+  font-family: "trade-reg";
+  font-weight: 800 !important;
+}
+.card-wrapper input[type="radio"] {
+  display: none;
+}
+.card-wrapper input[type="text"] {
+    height: 51px;
+}
+/* .card-wrapper label {
+    color: #2A263D;
+    font-family: 'Montserrat';
+    font-size: 15px;
+} */
+h2.scard {
+    font-family: 'mont';
+    font-size: 20px;
+    font-weight: 600;
+}
+.payment-icon {
+    margin-left: 1rem;
+}
+.card-wrapper input[type="radio"]:checked + label img {
+  border: 1px solid #f35f63;
+}
+.card-wrapper button.btn-card {
+  background: #f35f63;
+  border: 0px;
+  color: #fff;
+  padding: 14px 51px;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: "Spartan";
+}
+.saveCards .card-info {
+  display: flex;
+  align-items: center;
+}
+.editss {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+.profile .saveCards label.container {
+    padding: 0;
+}
+.profile .saveCards label.container span.checkmark .card-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #707070;
+    padding: 10px 20px;
+    position: relative;
+}
+.profile .saveCards label.container input:checked ~ span.checkmark .card-options {
+    box-shadow: 0px 0px 0px 2px #f35f63;
+    border-color: #fff;
+}
+.profile .saveCards label.container span.checkmark .card-options .visa-card {
+    display: flex;
+    align-items: center;
+}
+.profile .saveCards label.container span.checkmark .card-options .visa-card .form-group label {
+    font-size: 8px;
+    color: #000000;
+}
+.profile .saveCards label.container span.checkmark .card-options .visa-card .form-group .form-control {
+    border: 0;
+    font-size: 18px;
+    color: #343A40;
+    height: 20px;
+    padding: 0;
+}
+.profile .saveCards label.container span.checkmark .card-options .visa-card .img-box {
+    margin-right: 20px;
+}
+.profile .saveCards label.container span.checkmark .card-options  .action-btns {
+    text-align: right;
+}
+.profile .saveCards label.container span.checkmark .card-options .action-btns button.delete {
+    background: transparent;
+    border: 0;
+    padding-bottom: 10px;
+}
+.profile .saveCards label.container span.checkmark .card-options .action-btns button.delete i {
+    color: #000;
+    font-size: 20px;
+    padding-bottom: 16px;
+}
+.profile .saveCards label.container span.checkmark .card-options .action-btns .use-default label {
+    font-size: 15px;
+    color: #1F2C35;
+    padding-right: 60px;
+}
+.profile .saveCards label.container span.checkmark .card-options .action-btns .use-default span.check-box {
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    position: absolute;
+    right: 24px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 0px 1px #f35f63;
+}
+.profile .saveCards label.container input:checked ~ span.checkmark .card-options .action-btns .use-default span.check-box {
+    background: #f35f63;
+}
+/* / card tab responsive starts here / */
+@media (max-width: 1100px) {
+  .card-wrapper button.btn-card {
+    padding: 14px 31px !important;
+  }
+}
+@media (max-width: 630px) {
+  .heading {
+    padding-top: 60px;
+  }
+}
+/* / / 2nd Tab Content Css Start Here / / */
+/* / profile section css ends here / */
