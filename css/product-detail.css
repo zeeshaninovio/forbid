@@ -164,4 +164,42 @@
   font-family: "Roboto";
   padding: 12px 50px;
 }
+.review_sec {
+  background-image: url(img/review_back.png);
+  padding: 60px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.review_sec .review_box {
+  padding: 50px 50px;
+  background: #fff;
+}
+.review_sec .review_box .client_wrapper h4 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+}
+.review_sec .review_box .client_wrapper h3 {
+  color: #000000;
+  font-weight: 500;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.review_sec .review_box .country {
+  display: flex;
+  align-items: center;
+}
+.review_sec .review_box .country p {
+  margin: 0;
+  font-size: 12px;
+  color: #000000a1;
+  margin-left: 15px;
+}
+.review_sec .review_box p.para {
+  margin: 0;
+  font-size: 17px;
+  color: #000000d6;
+  line-height: 31px;
+  padding-top: 19px;
+}
 /* Product Detail Css End Here */

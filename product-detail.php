@@ -141,6 +141,47 @@
 </section>
 <!-- Product Detail End Here -->
 
+<!-- Review Sec Start Here -->
+<section class="review_sec">
+    <div class="container">
+        <div class="review_box">
+            <div class="client_wrapper">
+                <h4>Wine Style</h4>
+                <h3>Bavaria Alco States</h3>
+            </div>
+            <div class="description">
+                <div class="country">
+                    <img src="img/USA.png" class="img-fluid">
+                    <p>UNITED STATES</p>
+                </div>
+                <p class="para">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vulputate tempus magna non
+                    ullamcorper. Donec dapibus lectus vel dolor tincidunt, ut elementum enim vehicula. Quisque ante
+                    nunc, pharetra nec lacinia non, sollicitudin non dolor. Cras vel eleifend lorem. Nunc a risus vitae
+                    nisl ultrices hendrerit non vitae eros. Quisque sit amet massa leo. Aenean at hendrerit justo, id
+                    venenatis nisi. Donec ullamcorper eros aliquam, interdum urna at, iaculis libero. Donec velit dui,
+                    tincidunt finibus felis malesuada, porttitor dignissim nisi. Maecenas mauris lectus, pharetra sit
+                    amet nunc at, iaculis tempor nulla. Nullam feugiat quam ac lacus sagittis pretium. Donec eu lacus
+                    nisl. Nulla nec ex lacus. Praesent eget magna quis tortor sodales tincidunt id eget erat. In
+                    aliquam, tellus sit amet convallis eleifend, est sapien vehicula arcu, convallis semper nunc felis
+                    sit amet nisl.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Review Sec End Here -->
+
+<!-- Related Product Sec Start Here -->
+<section class="related_sec">
+    <div class="container">
+        <div class="heading_wrapper">
+            <h2>Related Products</h2>
+        </div>
+    </div>
+</section>
+<!-- Related Product Sec End Here -->
+
 <!-- header section-->
 <?php include 'inc/footer.php'; ?>
 <!-- header section-->
