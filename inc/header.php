@@ -58,7 +58,7 @@
         </div>
         <ul class="mobile-nav navbar-nav">
             <li class="nav-link"><a class="text-black" href="index.php">Home</a></li>
-            <li class="nav-link"><a class="text-black" href="news.php">Shop</a></li>
+            <li class="nav-link"><a class="text-black" href="shop.php">Shop</a></li>
             <li class="nav-link"><a class="text-black" href="about-us.php">About Us</a></li>
             <li class="nav-link"><a class="text-black" href="contact-us.php">Contacts</a></li>
             <li class="nav-link"><a class="text-black" href="signin.php">Sign In</a></li>
