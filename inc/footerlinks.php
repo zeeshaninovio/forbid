@@ -216,4 +216,17 @@ $('.sproduct').slick({
     ]
 });
 // shop page end here
+
+// add to cart Nav
+$('document').ready(function() {
+    $('.shop_sec .atc').click(function() {
+        $(".shop_sec .right_bar_addtocart").addClass('show');
+    });
+
+    $('.shop_sec .cancel').click(function() {
+        $(".shop_sec .right_bar_addtocart").removeClass('show');
+    });
+});
+// add to cart Nav
+
 </script>
