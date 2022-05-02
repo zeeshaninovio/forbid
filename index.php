@@ -3,23 +3,28 @@
 <!-- header section-->
 
 <style>
-    header#header {
+header#header {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     padding: 2rem 5rem;
+    z-index: 9;
 }
-    #header .canvas-icon i{
-        color: #fff;
-    }
-    .logo-in-top h1{
-        color: #fff;
-    }
-    .all-nav {
+
+#header .canvas-icon i {
+    color: #fff;
+}
+
+.logo-in-top h1 {
+    color: #fff;
+}
+
+.all-nav {
     display: none;
 }
-.logo-in-top h6{
+
+.logo-in-top h6 {
     color: #fff;
 }
 </style>
@@ -29,7 +34,7 @@
     <div class="container-fluid px-0 mx-0">
         <div class="main-header-icon">
         </div>
-        
+
         <div class="banner-text-section">
             <div class="banner-text-start">
                 <h4>Wine is for</h4>
@@ -61,7 +66,8 @@
             <div class="all-categories">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                        <div class="single-category first-category wow animate__animated animate__fadeInLeft animate__delay-1s">
+                        <div
+                            class="single-category first-category wow animate__animated animate__fadeInLeft animate__delay-1s">
                             <div class="category-name">
                                 <h4>CREAM LIQUEURS</h4>
                             </div>
@@ -71,7 +77,8 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 ">
-                        <div class="single-category d-flex align-items-start wow animate__animated animate__fadeInDown animate__delay-1s">
+                        <div
+                            class="single-category d-flex align-items-start wow animate__animated animate__fadeInDown animate__delay-1s">
                             <div class="single-category-inner">
                                 <div class="categpry-picture">
                                     <img src="img/cat-2.png" class="img-fluid" alt="">
@@ -83,7 +90,8 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 ">
-                        <div class="single-category d-flex align-items-end wow animate__animated animate__fadeInUp animate__delay-1s">
+                        <div
+                            class="single-category d-flex align-items-end wow animate__animated animate__fadeInUp animate__delay-1s">
                             <div class="single-category-inner">
                                 <div class="category-name">
                                     <h4>CREAM LIQUEURS</h4>
@@ -95,7 +103,8 @@
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12  ">
-                        <div class="single-category d-flex align-items-start wow animate__animated animate__fadeInRight animate__delay-1s">
+                        <div
+                            class="single-category d-flex align-items-start wow animate__animated animate__fadeInRight animate__delay-1s">
                             <div class="single-category-inner">
                                 <div class="category-name">
                                     <h4>CREAM LIQUEURS</h4>
@@ -232,43 +241,57 @@
                                     <div class="card">
                                         <div class="card-header" id="headingOne">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left yellowish-heading" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                Tasting notes
+                                                <button class="btn btn-link btn-block text-left yellowish-heading"
+                                                    type="button" data-toggle="collapse" data-target="#collapseOne"
+                                                    aria-expanded="true" aria-controls="collapseOne">
+                                                    Tasting notes
                                                 </button>
                                             </h2>
                                         </div>
 
-                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                            data-parent="#accordionExample">
                                             <p class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt
                                             </p>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header" id="headingTwo">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed yellowish-heading" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                Tasting notes
+                                                <button
+                                                    class="btn btn-link btn-block text-left collapsed yellowish-heading"
+                                                    type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    Tasting notes
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                            data-parent="#accordionExample">
                                             <p class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt
                                             </p>
                                         </div>
                                     </div>
                                     <div class="card">
                                         <div class="card-header" id="headingThree">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed yellowish-heading" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                Tasting notes
+                                                <button
+                                                    class="btn btn-link btn-block text-left collapsed yellowish-heading"
+                                                    type="button" data-toggle="collapse" data-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Tasting notes
                                                 </button>
                                             </h2>
                                         </div>
-                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                            data-parent="#accordionExample">
                                             <p class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt
                                             </p>
                                         </div>
                                     </div>
@@ -403,11 +426,13 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
                             <span><img src="img/leftangle.png" alt=""></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
                             <span><img src="img/right-angle.png" alt=""></span>
                             <span class="sr-only">Next</span>
                         </a>
@@ -562,4 +587,7 @@
     </div>
 </section>
 <!-- End Here -->
+
+<!-- Footer Start Here -->
 <?php include 'inc/footer.php'; ?>
+<!-- Footer End Here -->

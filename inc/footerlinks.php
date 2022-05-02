@@ -1,18 +1,17 @@
 <!-- Jquery JS-->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
 <!-- Jquery JS -->
-   <!-- Bootstrap CDN -->
-   <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-   <!-- <script src="js/bootstrap.min.js"></script> -->
-    <script src="js/scripts.js"></script>
-    <!-- Bootstrap CDN -->
+<!-- Bootstrap CDN -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="js/bootstrap.min.js"></script> -->
+<script src="js/scripts.js"></script>
+<!-- Bootstrap CDN -->
 <!-- Slick Slider CDN -->
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script src="js/wow.min.js"></script>
-    <!-- Slick Slider CDN -->
+<!-- Slick Slider CDN -->
 <script>
-
 // $('.the-all-reviews-start').slick({
 //     slidesToShow: 1,
 //     slidesToScroll: 1,
@@ -60,11 +59,11 @@
 //   ]
 // });
 
-    $(document).ready(function () {
-        $(window).on('load', function(){
-            $("#preloader").fadeOut(1000);
-        });
-    })
+$(document).ready(function() {
+    $(window).on('load', function() {
+        $("#preloader").fadeOut(1000);
+    });
+})
 // WoW js 
 new WOW().init();
 // WoW js 
@@ -78,6 +77,24 @@ for (let i = 0; i < menuLength; i++) {
     }
 }
 // Active js 
+
+// Product Detail Slider Start Here
+$('.product-single-image').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    fade: true,
+    asNavFor: '.product_images'
+});
+$('.product_images').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    asNavFor: '.product-single-image',
+    dots: false,
+    centerMode: true,
+    focusOnSelect: true
+});
+// Product Detail Slider End Here
 
 // Mobile Nav
 $('document').ready(function() {
@@ -98,78 +115,75 @@ $('document').ready(function() {
 
 // our brand page carouse start
 $('.ourbrandcarousel').slick({
-  dots: true,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
 });
 // our brand page carouse end
 // shop page start here
 $('.sproduct').slick({
-  dots: true,
-  autoplay:true,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
+    dots: true,
+    autoplay: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+    ]
 });
 // shop page end here
-
 </script>
