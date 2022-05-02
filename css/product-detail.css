@@ -165,7 +165,7 @@
   padding: 12px 50px;
 }
 .review_sec {
-  background-image: url(img/review_back.png);
+  background-image: url(../img/review_back.png);
   padding: 60px 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -201,5 +201,13 @@
   color: #000000d6;
   line-height: 31px;
   padding-top: 19px;
+}
+.related_sec {
+  padding: 60px 0;
+}
+.related_sec .heading_wrapper h2 {
+  font-size: 48px;
+  color: #000000;
+  text-align: center;
 }
 /* Product Detail Css End Here */

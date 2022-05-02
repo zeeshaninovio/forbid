@@ -178,6 +178,9 @@
         <div class="heading_wrapper">
             <h2>Related Products</h2>
         </div>
+        <div class="related_slider">
+
+        </div>
     </div>
 </section>
 <!-- Related Product Sec End Here -->
