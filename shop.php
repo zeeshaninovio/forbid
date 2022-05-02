@@ -232,7 +232,9 @@
                                         <a href="javascript:void(0)">
                                             <div class="product-sec">
                                                 <div class="product-img">
-                                                    <img class="img-fluid" src="img/sharab6.png" alt="">
+                                                    <a href="product-detail.php">
+                                                        <img class="img-fluid" src="img/sharab6.png" alt="">
+                                                    </a>
                                                     <i class="fa fa-heart" aria-hidden="true"></i>
                                                     <button class="custombtn">Sale</button>
                                                 </div>

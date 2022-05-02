@@ -116,6 +116,41 @@ header#header {
   padding: 0.5rem;
   border-radius: 50%;
 }
+
+/* Product Css Start Here */
+.product-sec {
+  text-align: center;
+}
+.product-sec .product-icon hr {
+  width: 100%;
+}
+.product-sec .product-icon {
+  display: flex;
+  align-items: center;
+}
+.product-sec .product-icon img.img-fluid {
+  width: 12px;
+  height: fit-content;
+}
+.product-sec .product-icon hr {
+  width: 40%;
+}
+.product-sec .addtocartbtn i {
+  margin-right: 5px;
+}
+.product-img img.img-fluid {
+  width: 150px;
+  margin: auto;
+  height: 160px;
+}
+.products-par p {
+  color: #a97e45;
+}
+.product_stars_icon i {
+  color: #a97e45;
+}
+/* Product Css End Here */
+
 /* Prelaoder */
 #preloader {
   position: fixed;

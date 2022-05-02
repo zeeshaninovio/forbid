@@ -179,7 +179,314 @@
             <h2>Related Products</h2>
         </div>
         <div class="related_slider">
+            <div class="product-sec">
+                <div class="product-img">
+                    <a href="product-detail.php">
+                        <img class="img-fluid" src="img/sharab6.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <p>Bavaria Alco</p>
+                </div>
+                <div class="product-icon">
+                    <hr>
+                    <img class="img-fluid" src="img/diamondicon.png" alt="">
+                    <hr>
+                </div>
+                <div class="products-par">
+                    <p>
+                        $525.00
+                    </p>
+                </div>
+                <div class="product_stars_icon">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="addtocartbtn ">
+                    <button class="custombtn atc"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add
+                        to
+                        Cart</button>
+                </div>
+            </div>
+            <div class="product-sec">
+                <div class="product-img">
+                    <a href="product-detail.php">
+                        <img class="img-fluid" src="img/sharab4.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <p>Bavaria Alco</p>
+                </div>
+                <div class="product-icon">
+                    <hr>
+                    <img class="img-fluid" src="img/diamondicon.png" alt="">
+                    <hr>
+                </div>
+                <div class="products-par">
+                    <p>
+                        $525.00
+                    </p>
+                </div>
+                <div class="product_stars_icon">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="addtocartbtn ">
+                    <button class="custombtn atc"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add
+                        to
+                        Cart</button>
+                </div>
+            </div>
+            <div class="product-sec">
+                <div class="product-img">
+                    <a href="product-detail.php">
+                        <img class="img-fluid" src="img/sharab8.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <p>Bavaria Alco</p>
+                </div>
+                <div class="product-icon">
+                    <hr>
+                    <img class="img-fluid" src="img/diamondicon.png" alt="">
+                    <hr>
+                </div>
+                <div class="products-par">
+                    <p>
+                        $525.00
+                    </p>
+                </div>
+                <div class="product_stars_icon">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="addtocartbtn ">
+                    <button class="custombtn atc"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add
+                        to
+                        Cart</button>
+                </div>
+            </div>
+            <div class="product-sec">
+                <div class="product-img">
+                    <a href="product-detail.php">
+                        <img class="img-fluid" src="img/sharab1.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <p>Bavaria Alco</p>
+                </div>
+                <div class="product-icon">
+                    <hr>
+                    <img class="img-fluid" src="img/diamondicon.png" alt="">
+                    <hr>
+                </div>
+                <div class="products-par">
+                    <p>
+                        $525.00
+                    </p>
+                </div>
+                <div class="product_stars_icon">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="addtocartbtn ">
+                    <button class="custombtn atc"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add
+                        to
+                        Cart</button>
+                </div>
+            </div>
+            <div class="product-sec">
+                <div class="product-img">
+                    <a href="product-detail.php">
+                        <img class="img-fluid" src="img/sharab6.png" alt="">
+                    </a>
+                </div>
+                <div>
+                    <p>Bavaria Alco</p>
+                </div>
+                <div class="product-icon">
+                    <hr>
+                    <img class="img-fluid" src="img/diamondicon.png" alt="">
+                    <hr>
+                </div>
+                <div class="products-par">
+                    <p>
+                        $525.00
+                    </p>
+                </div>
+                <div class="product_stars_icon">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <div class="addtocartbtn ">
+                    <button class="custombtn atc"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add
+                        to
+                        Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Related Product Sec End Here -->
 
+<!-- Related Product Sec Start Here -->
+<section class="recommend_sec">
+    <div class="container">
+        <div class="heading_wrapper">
+            <h2>Recommended Products</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="product-sec">
+                    <div class="product-img">
+                        <a href="product-detail.php">
+                            <img class="img-fluid" src="img/sharab6.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <p>Bavaria Alco</p>
+                    </div>
+                    <div class="product-icon">
+                        <hr>
+                        <img class="img-fluid" src="img/diamondicon.png" alt="">
+                        <hr>
+                    </div>
+                    <div class="products-par">
+                        <p>
+                            $525.00
+                        </p>
+                    </div>
+                    <div class="product_stars_icon">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="addtocartbtn ">
+                        <button class="custombtn atc"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add
+                            to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="product-sec">
+                    <div class="product-img">
+                        <a href="product-detail.php">
+                            <img class="img-fluid" src="img/sharab4.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <p>Bavaria Alco</p>
+                    </div>
+                    <div class="product-icon">
+                        <hr>
+                        <img class="img-fluid" src="img/diamondicon.png" alt="">
+                        <hr>
+                    </div>
+                    <div class="products-par">
+                        <p>
+                            $525.00
+                        </p>
+                    </div>
+                    <div class="product_stars_icon">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="addtocartbtn ">
+                        <button class="custombtn atc"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add
+                            to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="product-sec">
+                    <div class="product-img">
+                        <a href="product-detail.php">
+                            <img class="img-fluid" src="img/sharab8.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <p>Bavaria Alco</p>
+                    </div>
+                    <div class="product-icon">
+                        <hr>
+                        <img class="img-fluid" src="img/diamondicon.png" alt="">
+                        <hr>
+                    </div>
+                    <div class="products-par">
+                        <p>
+                            $525.00
+                        </p>
+                    </div>
+                    <div class="product_stars_icon">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="addtocartbtn ">
+                        <button class="custombtn atc"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add
+                            to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="product-sec">
+                    <div class="product-img">
+                        <a href="product-detail.php">
+                            <img class="img-fluid" src="img/sharab1.png" alt="">
+                        </a>
+                    </div>
+                    <div>
+                        <p>Bavaria Alco</p>
+                    </div>
+                    <div class="product-icon">
+                        <hr>
+                        <img class="img-fluid" src="img/diamondicon.png" alt="">
+                        <hr>
+                    </div>
+                    <div class="products-par">
+                        <p>
+                            $525.00
+                        </p>
+                    </div>
+                    <div class="product_stars_icon">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="addtocartbtn ">
+                        <button class="custombtn atc"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Add
+                            to
+                            Cart</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>

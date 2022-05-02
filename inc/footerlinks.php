@@ -114,8 +114,9 @@ $('document').ready(function() {
 
 // Related Pro Slider Js
 $('.related_slider').slick({
-    dots: true,
+    dots: false,
     infinite: true,
+    arrows: true,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -125,7 +126,7 @@ $('.related_slider').slick({
                 slidesToShow: 3,
                 slidesToScroll: 3,
                 infinite: true,
-                dots: true
+                dots: false
             }
         },
         {
@@ -228,5 +229,4 @@ $('document').ready(function() {
     });
 });
 // add to cart Nav
-
 </script>
