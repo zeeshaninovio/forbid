@@ -371,9 +371,7 @@ body {
   display: flex;
   justify-content: center;
 }
-.logo-in-top img {
-  filter: brightness(0) invert(1);
-}
+
 .logo-in-top h1 {
   font-family: "keiraseriffree-regular";
   font-size: 45px;
@@ -413,9 +411,10 @@ body {
 }
 
 .chat-now-btn {
-  position: absolute;
+  position: fixed;
   bottom: 50px;
   right: 50px;
+  z-index: 9;
 }
 
 .chat-now-btn button {

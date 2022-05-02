@@ -1,0 +1,28 @@
+.pp_content.container h6 {
+    color: #000;
+}
+.pp_content.container p:not(:last-child) {
+    border-bottom: 1px solid #CCCCCC;
+}
+.pp_para {
+    border: 1px solid #CCCCCC;
+}
+.pp_para h6 {
+    padding: 1em;
+}
+.pp_para p {
+    padding: 1rem;
+}
+.pp_content.container p:not(:last-child) {
+    border-bottom: 1px solid #CCCCCC;
+}
+.pp_para h4 {
+    color: #000;
+    padding: 1rem;
+}
+.pp_content {
+    padding: 3rem 0;
+}
+.pp_content {
+    padding: 3rem 0;
+}

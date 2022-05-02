@@ -9,9 +9,9 @@
 <section class="privacy-policy-sec">
     <section class="section-head">
         <div class="head">
-            <h4>Privacy Policy</h4>
+            <h4>Terms and Conditions</h4>
             <p>
-                Home / Privacy Policy
+                Home / Terms and Conditions
             </p>
         </div>
     </section>
@@ -19,7 +19,7 @@
 
         <div class="pp_para">
             <div>
-                <h4>Privacy Policy</h4>
+                <h4>Terms and Conditions</h4>
             </div>
             <h6>
                 What is Lorem Ipsum?

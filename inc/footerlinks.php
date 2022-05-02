@@ -12,6 +12,7 @@
 <script src="js/wow.min.js"></script>
 <!-- Slick Slider CDN -->
 <script>
+  
   $(document).ready(function() {
     $(window).on('load', function() {
       $("#preloader").fadeOut(1000);
@@ -34,54 +35,13 @@
         $("#preloader").fadeOut(1000);
       });
     })
-    // Mobile Nav
-    $('document').ready(function() {
-      $('#header .canvas-icon i').click(function() {
-        $("#header .mobile-header").addClass('show');
-      });
-
-      $('#header .mobile-header .cancel').click(function() {
-        $("#header .mobile-header").removeClass('show');
-      });
+    
 
       //Banner Slider 
 
       //Banner Slider
 
-      // Related Pro Slider Js
-      $('.related_slider').slick({
-        dots: false,
-        infinite: true,
-        arrows: true,
-        speed: 300,
-        slidesToShow: 4,
-        slidesToScroll: 4,
-        responsive: [{
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-              infinite: true,
-              dots: false
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2
-            }
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      });
-      // Related Pro Slider Js
+      
       // our brand page carouse start
       $('.ourbrandcarousel').slick({
         dots: true,
@@ -154,7 +114,96 @@
           // instead of a settings object
         ]
       });
-    });
   }
-  // Mobile Nav
+  // Add to cart Nav
+  $('document').ready(function() {
+      $('.shop_sec .atc').click(function() {
+        $(".shop_sec .right_bar_addtocart").addClass('show');
+      });
+
+      $('.shop_sec .cancel').click(function() {
+        $(".shop_sec .right_bar_addtocart").removeClass('show');
+      });
+    });
+
+
+    $('document').ready(function() {
+      $('.product_detail .atc').click(function() {
+        $(".product_detail .right_bar_addtocart").addClass('show');
+      });
+
+      $('.product_detail .cancel').click(function() {
+        $(".product_detail .right_bar_addtocart").removeClass('show');
+      });
+    });
+    // Related Pro Slider Js
+    $('.related_slider').slick({
+        dots: false,
+        infinite: true,
+        arrows: true,
+        speed: 300,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+              infinite: true,
+              dots: false
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+      // Related Pro Slider Js
+
+      // single image Pro Slider Js
+    $('.product-single-image').slick({
+        dots: false,
+        infinite: true,
+        arrows: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              infinite: true,
+              dots: false
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
+      // single image Pro Slider Js
+
 </script>

@@ -783,7 +783,7 @@
             <a class="custombtn ptc" href="checkout.php">Proceed To Checkout</a>
         </div>
         <div class="btn-group">
-            <a class="custombtn ptc mt-5" href="shopping-cart.php">View Cart</a>
+            <a class="custombtn ptc mt-5" href="cart.php">View Cart</a>
         </div>
     </section>
 </section>

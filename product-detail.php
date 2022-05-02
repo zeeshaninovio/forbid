@@ -130,7 +130,7 @@
                             </div>
                         </div>
                         <div class="button-group">
-                            <button class="btn">Add to Cart</button>
+                            <button class="btn atc">Add to Cart</button>
                             <button class="btn">Add to Wishlist</button>
                         </div>
                     </div>
@@ -138,6 +138,69 @@
             </div>
         </div>
     </div>
+    <section class="right_bar_addtocart">
+        <div class="cancel">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x"
+                viewBox="0 0 16 16">
+                <path
+                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z">
+                </path>
+            </svg>
+        </div>
+        <div class="addtocart_right">
+            <div>
+                <p>Your Cart</p>
+                <hr>
+                <div class="add_to_cart_content">
+                    <div class="addto_cart_img">
+                        <img src="img/sharab1.png" alt="">
+                    </div>
+                    <div>
+                        <p>Borges Unfiltered Organic</p>
+                        <p>S / Yellow / Low Sodium</p>
+                        <p>$539</p>
+                        <div>
+                            <span>-</span>
+                            <span>2</span>
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="add_to_cart_content">
+                    <div class="addto_cart_img">
+                        <img src="img/sharab2.png" alt="">
+                    </div>
+                    <div>
+                        <p>Bavaria Alco</p>
+                        <p>L / Green / Low Sodium</p>
+                        <p>$1218</p>
+                        <div>
+                            <span>-</span>
+                            <span>2</span>
+                            <span>+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <hr>
+            <div class="total-addtocart">
+                <p>Total</p>
+                <p>$1820</p>
+            </div>
+            <hr>
+            <p>Shipping, Taxes and discounts will be calculated at checkout</p>
+        </div>
+        <div class="btn-group">
+            <a class="custombtn ptc" href="checkout.php">Proceed To Checkout</a>
+        </div>
+        <div class="btn-group">
+            <a class="custombtn ptc mt-5" href="cart.php">View Cart</a>
+        </div>
+    </section>
 </section>
 <!-- Product Detail End Here -->
 
@@ -489,6 +552,7 @@
             </div>
         </div>
     </div>
+
 </section>
 <!-- Related Product Sec End Here -->
 

@@ -30,7 +30,8 @@
         <div class="col-md-4">
             <div class="logo-in-top">
                 <div>
-                    <img src="img/headlogo.png" class="img-fluid" alt="">
+                    <a href="index.php"><img src="img/headlogo.png" class="img-fluid" alt=""></a>
+                    
                     <!-- <h1>FORBID</h1>
                     <h6>THE LUXURY DRINK</h6> -->
                 </div>
@@ -39,7 +40,7 @@
         <div class="col-md-4">
             <div class="text-center header-icon">
                 <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                <a href="cart.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
                 <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
             </div>
         </div>
@@ -68,3 +69,16 @@
         </ul>
     </div>
 </header>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
+<script>
+    $('document').ready(function() {
+      console.log('test');
+      $('#header .canvas-icon i').click(function() {
+        $("#header .mobile-header").addClass('show');
+      });
+
+      $('#header .mobile-header .cancel').click(function() {
+        $("#header .mobile-header").removeClass('show');
+      });
+    });
+    </script>

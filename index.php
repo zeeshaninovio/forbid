@@ -3,6 +3,9 @@
 <!-- header section-->
 
 <style>
+    .logo-in-top img {
+  filter: brightness(0) invert(1);
+}
 header#header {
     position: absolute;
     top: 0;
@@ -42,7 +45,7 @@ header#header {
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore <br> magna aliqua. Ut enim ad minim veniam</p>
-                <a href="" class="btn">Shop The Wine</a>
+                <a href="shop.php" class="btn">Shop The Wine</a>
             </div>
         </div>
         <div class="chat-now-btn">
@@ -118,7 +121,7 @@ header#header {
                 </div>
             </div>
             <div class="view-more-categories text-center">
-                <a href="" class="cat-view-more">View More</a>
+                <a href="shop.php" class="cat-view-more">View More</a>
             </div>
         </div>
     </div>
@@ -202,7 +205,7 @@ header#header {
             </div>
         </div>
         <div class="for-read-more-in-process text-center">
-            <a href="">R E A D &nbsp;&nbsp;&nbsp; M O R E</a>
+            <a href="about-us.php">R E A D &nbsp;&nbsp;&nbsp; M O R E</a>
         </div>
     </div>
 </div>
