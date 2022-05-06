@@ -85,6 +85,7 @@ label {
 a.btn {
   padding: 15px 35px;
   border-radius: 0px;
+  
 }
 .custombtn {
   font-family: "tmo";
@@ -274,6 +275,9 @@ li.nav-link a {
   color: #000;
   display: unset;
 }
+.mobile-header .nav_social {
+  margin-top: 7rem;
+}
 
 @media (max-width: 991px) {
   #header .nav {
@@ -398,7 +402,7 @@ body {
 }
 
 .banner-text-start p {
-  font-size: 13px;
+  font-size: 14px;
   color: #ffffff;
   opacity: 0.6;
 }
@@ -464,7 +468,7 @@ body {
 }
 
 .cat-view-more {
-  font-size: 14.5px;
+  font-size: 16px;
   color: #ffffff;
   position: absolute;
   bottom: -45px;
@@ -532,7 +536,7 @@ body {
 
 .for-read-more-in-process a {
   color: #a97e45;
-  font-size: 14.5px;
+  font-size: 16px;
 }
 
 /* Process End Here  */
@@ -541,8 +545,8 @@ body {
 
 .everyone-is-liking-section {
   width: 100%;
-  /* height: 500px; */
-  padding: 120px 0px;
+  height: 800px;
+  /* padding: 120px 0px; */
   background-image: url(../img/everyoneliking.png);
   background-size: cover;
   background-repeat: no-repeat;

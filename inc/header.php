@@ -31,7 +31,7 @@
             <div class="logo-in-top">
                 <div>
                     <a href="index.php"><img src="img/headlogo.png" class="img-fluid" alt=""></a>
-                    
+
                     <!-- <h1>FORBID</h1>
                     <h6>THE LUXURY DRINK</h6> -->
                 </div>
@@ -66,19 +66,26 @@
             <li class="d-flex for-search-in-nav"><input type="text" placeholder="Search..">
                 <div class="searchbtn"><img src="img/search.png" alt=""></div>
             </li>
+            <li class="nav-link nav_social">
+                <a class="text-black mr-3" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="text-black mr-3" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a class="text-black mr-3" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li class="nav-link"></li>
+            <li class="nav-link"></li>
         </ul>
     </div>
 </header>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" type="text/javascript"></script>
 <script>
-    $('document').ready(function() {
-      console.log('test');
-      $('#header .canvas-icon i').click(function() {
+$('document').ready(function() {
+    console.log('test');
+    $('#header .canvas-icon i').click(function() {
         $("#header .mobile-header").addClass('show');
-      });
-
-      $('#header .mobile-header .cancel').click(function() {
-        $("#header .mobile-header").removeClass('show');
-      });
     });
-    </script>
+
+    $('#header .mobile-header .cancel').click(function() {
+        $("#header .mobile-header").removeClass('show');
+    });
+});
+</script>

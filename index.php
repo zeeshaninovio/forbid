@@ -3,6 +3,9 @@
 <!-- header section-->
 
 <style>
+    header#header .text-center.header-icon {
+    display: none;
+}
     .logo-in-top img {
   filter: brightness(0) invert(1);
 }
@@ -244,7 +247,7 @@ header#header {
                                     <div class="card">
                                         <div class="card-header" id="headingOne">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left yellowish-heading"
+                                                <button class="btn btn-link btn-block text-left collapsed yellowish-heading"
                                                     type="button" data-toggle="collapse" data-target="#collapseOne"
                                                     aria-expanded="true" aria-controls="collapseOne">
                                                     Tasting notes
@@ -252,7 +255,7 @@ header#header {
                                             </h2>
                                         </div>
 
-                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                        <div id="collapseOne" class="collapse " aria-labelledby="headingOne"
                                             data-parent="#accordionExample">
                                             <p class="card-body">
                                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
