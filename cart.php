@@ -14,6 +14,7 @@
 <!-- cart starts here -->
 <section class="add-to-cart">
     <div class="container">
+        <h5 class="page-head">Products</h5>
         <div class="row">
             <div class="col-lg-12">
                 <div class="row">
@@ -72,7 +73,7 @@
                         <div class="order-summry-wrapper">
                             <div class="summary-content-wrapper">
                                 <h4>Order Summary</h4>
-                                <h5>Sub Total : $3025</h5>
+                                <h5>Sub Total : <span class="total-price">$3025</span></h5>
                                 <button class="btn Add-a-note">Add a note to your order </button>
                                 <div class="note-wrapper mt-4">
                                     <label for="">Special Instructions for seller</label>
@@ -81,7 +82,7 @@
                                 <p class="my-4">Shipping, Taxes and discounts will be calculated at
                                     checkout</h3>
                                 <div class="delievery-btn-wrapper mb-4">
-                                    <button class="btn form-control">Proceed to Checkout</button>
+                                    <a href="checkout.php" class="btn form-control custombtn">Proceed to Checkout</a>
                                 </div>
                                 <!-- <button onclick="location.href='Item-details.php'" class="btn up-btn">UPDATE</button>
                                 <button onclick="location.href='checkout.php'" class="btn up-btn">CHECKOUT</button> -->

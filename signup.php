@@ -123,10 +123,14 @@
                             </div>
                             <div class="row align-items-center">
                                 <div class="col-md-8">
-                                    <div class="form-group">
+                                    <div class="form-group signup">
+                                        <input type="checkbox" id="attc">
+                                        <label for="attc">Agree to Terms & conditions</label>
+                                    </div>
+                                    <!-- <div class="form-group">
                                         <input type="checkbox" id="monthlynews">
                                         <label class="monthys" for="monthlynews">Agree to Terms &amp; conditions</label>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="col-md-4 text-right">
                                     <input class="contact-submit custombtn" type="submit" value="SIGN UP">

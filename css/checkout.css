@@ -13,8 +13,9 @@
   color: #13adc8;
 }
 .checkout h3 {
-  font-weight: 700;
+  /* font-weight: 700; */
   font-size: 20px;
+  color: #000;
 }
 /* First Column Css Start Here */
 .checkout .first-top-bar {
@@ -25,6 +26,7 @@
 }
 .checkout .first-top-bar h3 {
   margin-bottom: 0;
+  color: #000;
 }
 .checkout .first-top-bar p {
   font-size: 15px;
@@ -95,6 +97,7 @@
 }
 .checkout .saved-address .title h5 {
   font-size: 15px;
+  color: #000;
 }
 /* The container */
 .checkout .saved-address .container {
@@ -173,17 +176,17 @@
 .checkout .saved-address .select-address .address-detail h5 span.property {
   font-size: 16px;
   color: #00000096;
-  font-weight: 600;
+  font-weight: inherit;
 }
 .checkout .saved-address .select-address .address-detail h5 span.property {
   font-size: 16px;
   color: #00000096;
   font-family: "Montserrat";
-  font-weight: 600;
+  font-weight: inherit;
 }
 .checkout .saved-address .select-address .address-detail h5 span.value {
   margin-left: 20px;
-  font-weight: 600;
+  font-weight: 500;
   color: #000000;
   font-size: 14px;
   font-family: "Montserrat";
@@ -515,7 +518,7 @@ sss .checkout .add-new-address label.container span.checkmark {
   height: 50px;
   border-color: #70707059;
 }
-.checkout .payment-details .saved-payment-method .add-new-method button {
+/* .checkout .payment-details .saved-payment-method .add-new-method button {
   width: 100%;
   padding: 15px 0;
   cursor: pointer;
@@ -529,12 +532,15 @@ sss .checkout .add-new-address label.container span.checkmark {
 }
 .checkout .payment-details .saved-payment-method .add-new-method button:hover {
   box-shadow: 0px 0px 0px 2px #a97e45;
-}
+} */
 /* Saved Payment Css Start Here */
 
 /* First Column Css End Here */
 
 /* Second Column Css Start Here */
+.second-top-bar button.custombtn {
+  width: -webkit-fill-available;
+}
 .checkout .second-top-bar .form-group {
   display: flex;
   align-items: flex-start;
@@ -543,14 +549,16 @@ sss .checkout .add-new-address label.container span.checkmark {
   border-radius: 0;
   border: 1px solid #b4b4b4;
   padding: 16px 20px;
-  height: 53px;
+  height: 42px;
+  margin-right: 10px;
+  width: -webkit-fill-available;
 }
 .checkout .second-top-bar .form-group .form-control::placeholder {
   color: #2a263d;
   font-family: "Montserrat";
   font-weight: 500;
 }
-.checkout .second-top-bar .form-group button {
+/* .checkout .second-top-bar .form-group button {
   height: 53.6px;
   width: 50%;
   margin-left: 15px;
@@ -564,7 +572,7 @@ sss .checkout .add-new-address label.container span.checkmark {
 }
 .checkout .second-top-bar .form-group button:hover {
   box-shadow: 0px 0px 0px 2px #a97e45;
-}
+} */
 .checkout .cart-product-detail {
   border: 1px solid #b4b4b4;
   padding: 50px 50px;
@@ -575,6 +583,7 @@ sss .checkout .add-new-address label.container span.checkmark {
   height: 280px;
   overflow-y: scroll;
   overflow-x: hidden;
+  padding: 0 10px 0 0;
 }
 .checkout .cart-product-detail .checkout-products::-webkit-scrollbar {
   width: 0;
@@ -710,11 +719,14 @@ sss .checkout .add-new-address label.container span.checkmark {
   padding: 0.5px;
   margin: 40px 0;
 }
-.checkout .confirm-orderDv {
+.confirm-orderDv .custombtn {
+  width: 100%;
+}
+/* .checkout .confirm-orderDv {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
 .checkout .confirm-orderDv .checkbox {
   display: flex;
   align-items: center;
@@ -727,7 +739,10 @@ sss .checkout .add-new-address label.container span.checkmark {
   font-weight: 400;
   font-family: "Montserrat";
 }
-.checkout .confirm-orderDv .button-group button {
+.add-new-method .custombtn {
+  width: 100%;
+}
+/* .checkout .confirm-orderDv .button-group button {
   width: 100%;
   padding: 12px 80px;
   cursor: pointer;
@@ -742,7 +757,7 @@ sss .checkout .add-new-address label.container span.checkmark {
 }
 .checkout .confirm-orderDv .button-group button:hover {
   box-shadow: 0px 0px 0px 2px #a97e45;
-}
+} */
 .add-new-method .form-check-input {
   top: 17px !important;
 }
@@ -839,6 +854,104 @@ sss .checkout .add-new-address label.container span.checkmark {
   left: 16px;
   top: 15px;
 }
+/* custom checkbox css start here */
+.checkout .form-group.customcheck {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.checkout .form-group.customcheck input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+  
+}
+
+.checkout .form-group.customcheck label {
+  position: relative;
+  cursor: pointer;
+}
+
+.checkout .form-group.customcheck label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 1px solid #a97e45;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 7px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius:50%;
+}
+
+.checkout .form-group.customcheck input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  background: #A97E45;
+  border-radius:50%;
+}
+/* custom checkbox css start here */
+
+/* custom squre check box css start here */
+.form-group.scustomcheck {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-group.scustomcheck input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form-group.scustomcheck label {
+  position: relative;
+  cursor: pointer;
+}
+
+.form-group.scustomcheck label:before {
+  content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #636060;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%), inset 0px -15px 10px -12px rgb(0 0 0 / 5%);
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.form-group.scustomcheck input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 4px;
+    left: 6px;
+    width: 6px;
+    height: 13px;
+    border: solid #A97E45;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+/* custom squre check box css end here */
+
 /* responsive starts here */
 @media (max-width: 480px) {
   .checkout .container {

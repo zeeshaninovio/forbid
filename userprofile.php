@@ -17,10 +17,10 @@
     <div class="container">
         <!-- profile heading section starts here -->
         <div class="row mt-5">
-            <div class="col-md-6">
+            <div class="col-md-10">
                 <!-- <h2 class="profile-heading">My Profile</h2> -->
             </div>
-            <div class="col-md-6 text-right ">
+            <div class="col-md-2 text-right ">
                 <a href="signin.php" class="btn btn-large custombtn">Sign Out</a href="signin.php">
             </div>
         </div>
@@ -304,7 +304,7 @@
                                             required="">
                                     </div>
                                     <div class="row">
-                                        <div class="col-lg-9 p-0">
+                                        <div class="col-lg-8 p-0">
                                             <div class="payment-icon">
                                                 <img class="img-fluid payimg" src="img/payment1.png" alt="">
                                                 <img class="img-fluid payimg" src="img/payment2.png" alt="">
@@ -312,7 +312,7 @@
                                                 <img class="img-fluid payimg" src="img/payment4.png" alt="">
                                             </div>
                                         </div>
-                                        <div class="col-lg-3">
+                                        <div class="col-lg-4">
                                             <button class="custombtn">ADD CARD</button>
                                         </div>
                                     </div>
@@ -348,7 +348,7 @@
                                             </span>
                                         </label>
 
-                                        <label class="container mt-4">
+                                        <label class="container mt-2">
                                             <input type="radio" name="for-payment-radio">
                                             <span class="checkmark">
                                                 <div class="card-options">

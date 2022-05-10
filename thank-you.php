@@ -22,7 +22,7 @@
             <h4>Your Order is confirmed</h4>
         </div>
         <div class="order-nmber">
-            <h4>OrderNo#1084598423154</h4>
+            <h4>OrderNo # 1084598423154</h4>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-2">

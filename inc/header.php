@@ -63,9 +63,9 @@
             <li class="nav-link"><a class="text-black" href="about-us.php">About Us</a></li>
             <li class="nav-link"><a class="text-black" href="contact-us.php">Contacts</a></li>
             <li class="nav-link"><a class="text-black" href="signin.php">Sign In</a></li>
-            <li class="d-flex for-search-in-nav"><input type="text" placeholder="Search..">
+            <!-- <li class="d-flex for-search-in-nav"><input type="text" placeholder="Search..">
                 <div class="searchbtn"><img src="img/search.png" alt=""></div>
-            </li>
+            </li> -->
             <li class="nav-link nav_social">
                 <a class="text-black mr-3" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a class="text-black mr-3" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>

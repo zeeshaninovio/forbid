@@ -10,6 +10,45 @@ header#header .logo-img {
 }
 
 /* Sidebar Css Start Here */
+.product-sec .product_name p {
+  margin: 0;
+}
+.products-par p {
+  color: #a97e45;
+  font-family: 'tmo';
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+.sproduct .slick-prev {
+  left: 6rem;
+  bottom: -20px;
+  background: #000;
+  top: unset;
+}
+
+.sproduct .slick-next {
+  content: "";
+  /* background-image:url(../img/leftangle.png); */
+  right: 6rem;
+  bottom: -20px;
+  background-color: #000;
+  top: unset;
+}
+/* .sproduct button.slick-next.slick-arrow {
+  position: absolute;
+  bottom: -60px;
+  top: unset;
+  left: 50px;
+  right: 0;
+  margin: 0px auto;
+}
+.sproduct button.slick-next.slick-arrow::before {
+  content: "\f105";
+  color: #000000;
+  font-family: "FontAwesome";
+  font-size: 35px;
+} */
 .shop_sec .shop-sidebar .variation-attr {
   margin-bottom: 25px;
 }
@@ -20,10 +59,10 @@ header#header .logo-img {
   font-size: 18px;
   color: #000;
   /* font-family: "Montserrat"; */
-  text-transform: uppercase;
-  font-weight: 700;
+  text-transform: inherit;
+  font-weight: 500;
   background: #F9F9F9;
-  padding: 5px;
+  padding: 12px 6px;
   position: relative;
   padding-left: 1rem;
 }
@@ -354,9 +393,12 @@ section.right_bar_addtocart.show {
 }
 .sorting_bar .btn-outline-secondary:hover {
   color: #000;
+  
 }
 .sorting_bar .btn-outline-secondary{
-  color: #000;
+  color: #6D6D6D;
+  background: #fff;
+    border: 0;
 }
 .btn-outline-secondary.active, .btn-outline-secondary:active, .show_p>.btn-outline-secondary.dropdown-toggle{
   background-color: #ccc;
@@ -590,3 +632,6 @@ section.right_bar_addtocart .btn-group {
   text-align: center;
 }
 /* seciton right bar css end  */
+.product_stars_icon i{
+  font-size: 12px;
+}

@@ -38,3 +38,58 @@ section.section-detail-form .form-group {
 section.section-detail-form {
     padding: 3rem 0;
 }
+section.sign-up-page section.section-detail-form .form-control {
+    border-radius: 0;
+}
+section.sign-up-page section.section-detail-form h5{
+    color: #000;
+}
+.form-group.signup {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .form-group.signup input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .form-group.signup label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .form-group.signup label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #636060;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%), inset 0px -15px 10px -12px rgb(0 0 0 / 5%);
+    padding: 6px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    /* border-radius: 5px; */
+  }
+  
+  .form-group.signup input:checked + label:after {
+    content: '';
+  display: block;
+  position: absolute;
+  top: 6px;
+    left: 4px;
+    width: 6px;
+    height: 11px;
+    border: solid #A97E45;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  }
+  section.sign-up-page input.contact-submit.custombtn {
+    width: 100%;
+}

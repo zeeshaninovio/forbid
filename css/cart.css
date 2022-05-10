@@ -54,7 +54,8 @@
   font-family: "playfair-regular";
   font-size: 22px;
   line-height: 1.5;
-  font-weight: 600;
+  /* font-weight: 600; */
+  color: #000;
 }
 .single-cart-content-wrapper p {
   color: #6d6d6d;
@@ -63,14 +64,25 @@
   font-weight: 400;
 }
 .single-cart-content-wrapper h6 {
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   font-weight: 400;
   font-size: 20px;
+  color: #000;
+}
+.summary-content-wrapper h5 span.total-price {
+  font-family: 'tmo';
+}
+h5.page-head {
+  color: #000;
+}
+.single-cart-content-wrapper h6 span.total-price {
+  font-family: 'tmo';
 }
 .single-cart-content-wrapper h4.price {
   font-family: "tmo";
   font-size: 22px;
   font-weight: 400;
+  color: #000;
 }
 .order-summry-wrapper h5 {
   color: #a97e45;
@@ -94,13 +106,14 @@
   border: 1px solid #cccccc;
   border-radius: 0px;
   background: transparent;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 .summary-content-wrapper h4 {
   font-family: "playfair-regular";
-  font-weight: 600;
+  /* font-weight: 600; */
   color: #000;
   margin-bottom: 30px;
+  font-size: 22px;
 }
 .summary-content-wrapper h5 {
   font-family: "playfair-regular";
@@ -124,14 +137,14 @@
   width: 78%;
   height: 51px;
   margin-bottom: 10px;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 .delievery-btn-wrapper {
   margin-bottom: 10px !important;
 }
 .delievery-btn-wrapper .btn:hover {
   background: #fff;
-  font-weight: 700;
+  /* font-weight: 700; */
   color: #000;
 }
 .summary-content-wrapper button.btn.up-btn {

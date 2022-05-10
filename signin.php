@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="css/signin.css">
 <!--    Custom CSS-->
 <!-- contact us page start here -->
-<section class="contact-us-page">
+<section class="contact-us-page signin_sec">
     <section class="section-head">
         <div class="head">
             <h4>Sign In</h4>
@@ -37,11 +37,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <p class="haveacc"><a href="forgetpassword.php">Forgets Password?</a> </p>
-                                </div>
-                            </div>
+
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
@@ -50,12 +46,21 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="haveacc"><a href="forgetpassword.php">Forgets Password?</a> </p>
+                                </div>
+                            </div>
                             <div class="row align-items-center">
                                 <div class="col-md-8">
-                                    <div class="form-group">
+                                    <div class="form-group signin">
+                                        <input type="checkbox" id="remember_me">
+                                        <label for="remember_me">Remember Me</label>
+                                    </div>
+                                    <!-- <div class="form-group">
                                         <input type="checkbox" id="monthlynews">
                                         <label class="monthys" for="monthlynews">Remember Me</label>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="col-md-4 text-right">
                                     <a type="submit" class="custombtn" href="userprofile.php">SIGN IN

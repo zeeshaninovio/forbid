@@ -92,6 +92,13 @@
   position: absolute;
   opacity: 0;
 }
+.product_name p {
+  margin: 0;
+}
+.product_stars_icon i {
+  color: #a97e45;
+  font-size: 12px;
+}
 .product_detail
   .product_details_dv
   .detail_box
@@ -107,7 +114,7 @@
 .quantity_dv button {
   border: 1px solid #a4a4a4;
   background: transparent;
-  height: 40px;
+  height: 39px;
   width: 35px;
   color: #6b6b6b;
   transition: 0.6s;
@@ -116,8 +123,8 @@
   text-align: center;
   border: 1px solid #a4a4a4;
   background: transparent;
-  height: 40px;
-  width: 65px;
+  height: 39px;
+  width: 89px;
   color: #6d6d6d;
   font-size: 15px;
   font-weight: 500;
@@ -138,7 +145,18 @@
 .product_detail .product_details_dv .detail_box h4.value.ez {
   color: #6d6d6d;
   font-size: 22px;
-  margin: 18px 0;
+  /* margin: 18px 0; */
+  margin-right: 5.5rem;
+}
+.product_detail .product_details_dv .detail_box .ez_life_img_sec img {
+  width: 119px;
+  margin-right: 2.3rem;
+}
+.detail_box figure {
+  margin-right: 2rem;
+}
+.product_detail .product_details_dv .detail_box img {
+  width: 120px;
 }
 .product_detail .product_details_dv .detail_box .dropdown a.btn {
   padding: 0;
@@ -300,3 +318,131 @@ section.right_bar_addtocart {
   box-shadow: 0px 0px 7px #ddd;
 }
 /* seciton right bar css end  */
+/* product tabs section css start here */
+div#desc p, div#desc strong {
+  font-size: 14px;
+  margin: 1rem 0;
+}
+.tab-pane {
+  border: 1px solid #CCCCCC;
+  /* border-bottom: 1px solid #CCCCCC; */
+  margin: 5px 0;
+  padding: 0 1rem;
+}
+div#ship p{
+  font-size: 14px;
+  margin: 1rem 0;
+}
+h4.cusrev {
+  color: #000;
+}
+.review-content .product_stars_icon {
+  display: inline-block;
+}
+.review-content {
+  display: flex;
+    border-top: 1px solid #cccccc;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #cccccc;
+    padding: 0.6rem 0;
+}
+p.review_botm_para {
+  color: #AFAFAF;
+}
+p.inital_para {
+  margin: 0;
+}
+p.review_date {
+  font-style: italic;
+  font-size: 14px;
+}
+p.small_txt {
+  color: #AFAFAF;
+  font-size: 8px;
+}
+.review_detail {
+  display: flex;
+  align-items: self-end;
+  justify-content: space-between;
+}
+.wine_taste_sec .progress {
+  background: #A97E45;
+  border: 1px solid #A97E45;
+  border-radius: 0;
+  height: 12px;
+  margin: 5px 0;
+}
+.wine_taste_sec .progress-bar {
+  background-color: #fff;
+}
+.wine_taste_sec h3 {
+  color: #000;
+}
+.progress_bar_txt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.progress_bar_txt p {
+  margin: 0;
+}
+.progress.progress_2 .progress-bar {
+  background-color: #A97E45;
+}
+.progress.progress_2 {
+  background: #fff;
+}
+section.wine_taste_like_sec h3 {
+  color: #000;
+}
+section.wine_taste_like_sec {
+  padding: 4rem 0px;
+}
+section.product_tabs_section .nav-tabs .nav-link {
+  border: 1px solid #CCCCCC;
+  margin-right: 5px;
+  /* color: #000; */
+}
+section.product_tabs_section .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border-color: #cccccc;
+}
+section.product_tabs_section .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background: #A97E45;
+  color: #fff !important;
+}
+section.product_tabs_section .nav-tabs .nav-link{
+  color: #000;
+  border-radius: 0;
+  font-family: 'tmo';
+}
+section.product_tabs_section .nav-tabs {
+  border-bottom: 0;
+}
+div#Reviews {
+  padding: 1rem;
+}
+div#Reviews form {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 1rem;
+  display: none;
+}
+div#Reviews .review_form.show{
+  display: block;
+}
+div#Reviews .review_form{
+  display: none;
+}
+/* product tabs section css end here */
+/* food that good section css start here */
+section.food_that_good_sec h3 {
+  color: #000;
+}
+section.food_that_good_sec {
+  padding: 2rem 0;
+}
+section.food_that_good_sec img.img-fluid.ftgw {
+  width: auto;
+  height: 83px;
+}
+/* food that good section css end here */

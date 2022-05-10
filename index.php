@@ -473,9 +473,9 @@ header#header {
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="single-slick-card">
-                                        <img src="img/slick-1.png" class="img-fluid" alt="">
+                                        <img src="img/slick-2.png" class="img-fluid" alt="">
                                         <div class="text-inc-slick-card">
-                                            <h5>GINS</h5>
+                                            <h5>RUMS</h5>
                                         </div>
                                     </div>
                                 </div>

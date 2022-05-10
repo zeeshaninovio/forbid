@@ -29,3 +29,6 @@ section.section-detail-form {
     background: url(../img/previous.png);
     background-size: 300px 100px;
 }
+section.section-detail-form button.custombtn {
+    width: 170px;
+}

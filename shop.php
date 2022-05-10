@@ -25,7 +25,7 @@
 
                     <div class="categoryDv variation-attr">
                         <div class="fhead">
-                            <h5>CATEGORIES</h5>
+                            <h5>Category</h5>
                         </div>
                         <ul class="categories">
                             <li><a href="#"><span class="property">Grape Wines</span> <span class="value">+</span></a>
@@ -238,7 +238,7 @@
                                                     <i class="fa fa-heart" aria-hidden="true"></i>
                                                     <button class="custombtn">Sale</button>
                                                 </div>
-                                                <div>
+                                                <div class="product_name">
                                                     <p>Bavaria Alco</p>
                                                 </div>
                                                 <div class="product-icon">
@@ -275,7 +275,7 @@
                                                     <i class="fa fa-heart-o" aria-hidden="true"></i>
                                                     <button class="custombtn">Sale</button>
                                                 </div>
-                                                <div>
+                                                <div class="product_name">
                                                     <p>Bavaria Alco</p>
                                                 </div>
                                                 <div class="product-icon">
@@ -311,7 +311,7 @@
                                                     <img class="img-fluid" src="img/sharab2.png" alt="">
                                                     <i class="fa fa-heart-o" aria-hidden="true"></i>
                                                 </div>
-                                                <div>
+                                                <div class="product_name">
                                                     <p>Bavaria Alco</p>
                                                 </div>
                                                 <div class="product-icon">
@@ -347,7 +347,7 @@
                                                     <img class="img-fluid" src="img/sharab4.png" alt="">
                                                     <i class="fa fa-heart-o" aria-hidden="true"></i>
                                                 </div>
-                                                <div>
+                                                <div class="product_name">
                                                     <p>Bavaria Alco</p>
                                                 </div>
                                                 <div class="product-icon">
@@ -383,7 +383,7 @@
                                                     <img class="img-fluid" src="img/sharab1.png" alt="">
                                                     <i class="fa fa-heart" aria-hidden="true"></i>
                                                 </div>
-                                                <div>
+                                                <div class="product_name">
                                                     <p>Bavaria Alco</p>
                                                 </div>
                                                 <div class="product-icon">
@@ -419,7 +419,7 @@
                                                     <img class="img-fluid" src="img/sharab8.png" alt="">
                                                     <i class="fa fa-heart-o" aria-hidden="true"></i>
                                                 </div>
-                                                <div>
+                                                <div class="product_name">
                                                     <p>Bavaria Alco</p>
                                                 </div>
                                                 <div class="product-icon">
@@ -455,7 +455,7 @@
                                                     <img class="img-fluid" src="img/sharab8.png" alt="">
                                                     <i class="fa fa-heart-o" aria-hidden="true"></i>
                                                 </div>
-                                                <div>
+                                                <div class="product_name">
                                                     <p>Bavaria Alco</p>
                                                 </div>
                                                 <div class="product-icon">
@@ -491,7 +491,7 @@
                                                     <img class="img-fluid" src="img/sharab1.png" alt="">
                                                     <i class="fa fa-heart-o" aria-hidden="true"></i>
                                                 </div>
-                                                <div>
+                                                <div class="product_name">
                                                     <p>Bavaria Alco</p>
                                                 </div>
                                                 <div class="product-icon">
@@ -527,7 +527,7 @@
                                                     <img class="img-fluid" src="img/sharab6.png" alt="">
                                                     <i class="fa fa-heart-o" aria-hidden="true"></i>
                                                 </div>
-                                                <div>
+                                                <div class="product_name">
                                                     <p>Bavaria Alco</p>
                                                 </div>
                                                 <div class="product-icon">
@@ -568,7 +568,7 @@
                                                     <button class="custombtn">Sale</button>
                                                 </div>
                                                 <div class="secnd-tab col-lg-6">
-                                                    <div>
+                                                    <div class="product_name">
                                                         <p>Bavaria Alco</p>
                                                     </div>
                                                     <div class="products-par">
@@ -605,7 +605,7 @@
                                                     <button class="custombtn">Sale</button>
                                                 </div>
                                                 <div class="secnd-tab col-lg-6">
-                                                    <div>
+                                                    <div class="product_name">
                                                         <p>Bavaria Alco</p>
                                                     </div>
                                                     <div class="products-par">
@@ -642,7 +642,7 @@
                                                     <button class="custombtn">Sale</button>
                                                 </div>
                                                 <div class="secnd-tab col-lg-6">
-                                                    <div>
+                                                    <div class="product_name">
                                                         <p>Bavaria Alco</p>
                                                     </div>
                                                     <div class="products-par">
@@ -679,7 +679,7 @@
                                                     <button class="custombtn">Sale</button>
                                                 </div>
                                                 <div class="secnd-tab col-lg-6">
-                                                    <div>
+                                                    <div class="product_name">
                                                         <p>Bavaria Alco</p>
                                                     </div>
                                                     <div class="products-par">

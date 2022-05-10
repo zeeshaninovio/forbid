@@ -41,3 +41,58 @@ section.section-detail-form .form-group {
 section.section-detail-form {
     padding: 3rem 0;
 }
+section.signin_sec .form-control {
+    border-radius: 0;
+}
+section.signin_sec .form-group.signin {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  section.signin_sec .form-group.signin input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  section.signin_sec .form-group.signin label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  section.signin_sec .form-group.signin label:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #636060;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 5%), inset 0px -15px 10px -12px rgb(0 0 0 / 5%);
+    padding: 6px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+    /* border-radius: 5px; */
+  }
+  
+  section.signin_sec .form-group.signin input:checked + label:after {
+    content: '';
+  display: block;
+  position: absolute;
+  top: 6px;
+    left: 4px;
+    width: 6px;
+    height: 11px;
+    border: solid #A97E45;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  }
+  section.signin_sec a.custombtn {
+    padding: 0.5rem 2rem;
+}
+section.signin_sec h5 {
+    color: #000;
+}

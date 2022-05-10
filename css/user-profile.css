@@ -72,10 +72,16 @@ figure {
 }
 .profile .profile-links-wrapper a.nav-link {
   color: #2a263d !important;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   font-size: 20px;
   line-height: 36px;
   font-weight: 600;
+}
+section.profile a.btn.btn-large.custombtn {
+  width: 100%;
+}
+.profile-links-wrapper .nav-link{
+  padding: 0em 1em;
 }
 @media (max-width: 926px) {
   .edit-img {
@@ -156,7 +162,7 @@ h3.form-heading {
 .order-table-wrapper .order-details a {
   color: #A97E45;
   text-transform: uppercase;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   font-weight: bold;
   text-decoration: underline;
 }
@@ -167,7 +173,7 @@ h3.form-heading {
   margin: 5px;
   padding: 14px;
   justify-content: center;
-  font-family: "Proxima Nova";
+  font-family: "tmo";
   font-size: 18px;
   color: #6e6e6e;
   font-weight: 400 !important;
@@ -759,9 +765,12 @@ h5.product-name {
   width: 50px !important;
   margin-right: 20px;
 }
-.profile .tab-content .saveCards {
-  padding-top: 30px;
+.profile div#v-pills-payment button.custombtn {
+  width: 100%;
 }
+/* .profile .tab-content .saveCards {
+  padding-top: 30px;
+} */
 /* .Myprofile .tab-content .saveCards .Yourcards {
     background: #F3F3F3;
     padding: 50px 40px;
@@ -946,6 +955,9 @@ h2.scard {
     border-radius: 50%;
     border: 3px solid #ffffff;
     box-shadow: 0px 0px 0px 1px #f35f63;
+}
+section.profile h2, section.profile h3 {
+  color: #000;
 }
 .profile .saveCards label.container input:checked ~ span.checkmark .card-options .action-btns .use-default span.check-box {
     background: #f35f63;

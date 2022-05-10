@@ -45,7 +45,7 @@ section.inner-banner-sec {
 .thankyou-sec .head-wrap h1 {
   font-size: 45px;
   color: #A97E45;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
   font-weight: 700;
   margin-bottom: 30px;
 }
@@ -61,8 +61,8 @@ section.inner-banner-sec {
 .thankyou-sec .order-nmber h4 {
   font-size: 22px;
   color: #A97E45;
-  font-family: "Montserrat";
-  font-weight: 600;
+  font-family: "tmo";
+  /* font-weight: 600; */
   padding: 15px 0;
 }
 .thankyou-sec .order-detail {
@@ -148,7 +148,7 @@ section.inner-banner-sec {
   background: transparent;
   color: #000000 !important;
   font-size: 18px;
-  font-weight: 600;
+  /* font-weight: 600; */
   width: 100%;
   padding: 15px 0;
   transition: 0.6s;

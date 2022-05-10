@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="css/forgetpassword.css">
 <!--    Custom CSS-->
 <!-- contact us page start here -->
-<section class="contact-us-page">
+<section class="contact-us-page forget_pass_section">
     <section class="section-head">
         <div class="head">
             <h4>Forget Password</h4>

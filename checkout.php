@@ -42,11 +42,13 @@
                                     </div>
                                     <div class="address-detail">
                                         <h5><span class="property">Country:</span><span class="value">United
-                                                States</span><span class="property pl-4">State:</span><span class="value">Texas</span>
+                                                States</span><span class="property pl-4">State:</span><span
+                                                class="value">Texas</span>
                                         </h5>
                                         <h5><span class="property">Address:</span><span class="value">10515 Fox Ave
                                                 Fairdale, Kentucky(KY), 40118</span></h5>
-                                        <h5><span class="property">Phone:</span><span class="value">+44-123-456-789</span>
+                                        <h5><span class="property">Phone:</span><span
+                                                class="value">+44-123-456-789</span>
                                         </h5>
                                         <button class="btn default disabled">Default</button>
                                     </div>
@@ -66,11 +68,13 @@
                                     </div>
                                     <div class="address-detail">
                                         <h5><span class="property">Country:</span><span class="value">United
-                                                States</span><span class="property pl-4">State:</span><span class="value">Texas</span>
+                                                States</span><span class="property pl-4">State:</span><span
+                                                class="value">Texas</span>
                                         </h5>
                                         <h5><span class="property">Address:</span><span class="value">10515 Fox Ave
                                                 Fairdale, Kentucky(KY), 40118</span></h5>
-                                        <h5><span class="property">Phone:</span><span class="value">+44-123-456-789</span>
+                                        <h5><span class="property">Phone:</span><span
+                                                class="value">+44-123-456-789</span>
                                         </h5>
                                     </div>
                                 </div>
@@ -78,10 +82,14 @@
                         </label>
                     </div>
                     <div class="add-new-address">
-                        <div class="form-check py-3">
+                        <div class="form-group customcheck">
+                            <input type="checkbox" id="ana">
+                            <label for="ana">Add New Address</label>
+                        </div>
+                        <!-- <div class="form-check py-3">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1"> Add New Address</label>
-                        </div>
+                        </div> -->
                         <div class="form-group mb-4">
                             <label for="method">Shipment Method</label>
                             <select id="method" class="form-control">
@@ -95,7 +103,8 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="fname">First Name</label>
-                                    <input type="text" id="fname" class="form-control" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+                                    <input type="text" id="fname" class="form-control"
+                                        style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -153,9 +162,9 @@
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="form-check">
-                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Save Shipping Details</label>
+                                <div class="form-group scustomcheck">
+                                    <input type="checkbox" id="ssd">
+                                    <label for="ssd">Save Shipping Details</label>
                                 </div>
                             </div>
                         </div>
@@ -222,14 +231,18 @@
                             </label>
 
                             <div class="add-new-method">
-                                <div class="form-check py-3">
+                                <div class="form-group customcheck">
+                                    <input type="checkbox" id="anp">
+                                    <label for="anp">Add New Payment</label>
+                                </div>
+                                <!-- <div class="form-check py-3">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                     <label class="form-check-label" for="exampleCheck1">Add New Payment</label>
-                                </div>
+                                </div> -->
                                 <div class="form-group">
                                     <input type="text" class="form-control">
                                 </div>
-                                <button type="button">Add Card <img src="img/right-arrow.svg" alt=""></button>
+                                <button class="custombtn" type="button">Add Card </button>
                             </div>
                             <!-- Saved payments Method -->
                         </div>
@@ -240,11 +253,11 @@
                         <div class="title pb-4">
                             <h3>Order Summery</h3>
                         </div>
-                        <label for="Enter Voucher Code : ">Enter Voucher Code : </label>
+                        <!-- <label for="Enter Voucher Code : ">Enter Voucher Code : </label> -->
                         <div class="form-group">
 
-                            <input type="text" class="form-control">
-                            <button type="button">SUBMIT <img src="img/right-arrow.svg" alt=""></button>
+                            <input type="text" class="form-control" placeholder="Enter Promo Code">
+                            <button class="custombtn" type="button">Apply </button>
                         </div>
                     </div>
                     <div class="cart-product-detail">
@@ -275,7 +288,7 @@
                                         <figure><img src="img/details2.png" alt="123"></figure>
                                     </div>
                                     <div class="pro-dtl">
-                                        <h5 class="name">Borges Unfiltered  <br>
+                                        <h5 class="name">Borges Unfiltered <br>
                                             Organic</h5>
                                         <ul class="variations">
                                             <li>S / Yellow / Low Sodium</li>
@@ -292,7 +305,7 @@
                                         <figure><img src="img/details3.png" alt="123"></figure>
                                     </div>
                                     <div class="pro-dtl">
-                                        <h5 class="name">Borges Unfiltered  <br>
+                                        <h5 class="name">Borges Unfiltered <br>
                                             Organic</h5>
                                         <ul class="variations">
                                             <li>S / Yellow / Low Sodium</li>
@@ -309,7 +322,7 @@
                                         <figure><img src="img/details1.png" alt="123"></figure>
                                     </div>
                                     <div class="pro-dtl">
-                                        <h5 class="name">Borges Unfiltered  <br>
+                                        <h5 class="name">Borges Unfiltered <br>
                                             Organic</h5>
                                         <ul class="variations">
                                             <li>S / Yellow / Low Sodium</li>
@@ -326,7 +339,7 @@
                                         <figure><img src="img/details2.png" alt="123"></figure>
                                     </div>
                                     <div class="pro-dtl">
-                                        <h5 class="name">Borges Unfiltered  <br>
+                                        <h5 class="name">Borges Unfiltered <br>
                                             Organic</h5>
                                         <ul class="variations">
                                             <li>S / Yellow / Low Sodium</li>
@@ -343,7 +356,7 @@
                                         <figure><img src="img/details3.png" alt="123"></figure>
                                     </div>
                                     <div class="pro-dtl">
-                                        <h5 class="name">Borges Unfiltered  <br>
+                                        <h5 class="name">Borges Unfiltered <br>
                                             Organic</h5>
                                         <ul class="variations">
                                             <li>S / Yellow / Low Sodium</li>
@@ -379,14 +392,31 @@
             </div>
             <div class="border-last"></div>
             <div class="confirm-orderDv">
-                <div class="checkbox">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="form-group scustomcheck">
+                            <input type="checkbox" id="psicq">
+                            <label for="psicq">Proident, sunt in culpa qui officia deserunt mollit anim id est
+                                laborum.</label>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="button-group">
+                            <button class="custombtn" type="submit">Confirm Order <img src="img/right-arrow.svg"
+                                    alt=""></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="checkbox">
                     <input type="checkbox" class="form-control" id="for-checkbox">
                     <label for="for-checkbox">Proident, sunt in culpa qui officia deserunt mollit anim id est
                         laborum.</label>
-                </div>
-                <div class="button-group">
-                    <button type="submit">Confirm Order <img src="img/right-arrow.svg" alt=""></button>
-                </div>
+                </div> -->
+
             </div>
         </form>
     </div>
