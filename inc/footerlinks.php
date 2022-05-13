@@ -80,6 +80,7 @@ for (let i = 0; i < menuLength; i++) {
     // shop page start here
     $('.sproduct').slick({
         dots: true,
+        arrow:true,
         autoplay: true,
         infinite: true,
         speed: 300,
@@ -91,7 +92,7 @@ for (let i = 0; i < menuLength; i++) {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: true
+                    dots: true,
                 }
             },
             {

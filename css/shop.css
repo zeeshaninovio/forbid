@@ -26,13 +26,45 @@ header#header .logo-img {
   /* background: #000; */
   top: unset;
 }
-
+.shop-sidebar {
+  margin-bottom: 4rem;
+}
 .sproduct .slick-next {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 6rem;
+  top: unset;
+  bottom: -20px;
+  /* left: 9px; */
+  width: 13px;
+  height: 13px;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(313deg);
+  z-index: 9;
+}
+.sproduct .slick-prev {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 6rem;
+  top: unset;
+  bottom: -20px;
+  /* left: 9px; */
+  width: 13px;
+  height: 13px;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(134deg);
+  z-index: 9;
+}
+/* .sproduct .slick-next {
   content: "";
   background-image:url(../img/right-angle.png);
   right: 6rem;
   bottom: -20px;
-  /* background-color: #000; */
+  background-color: #000;
   top: unset;
   background-size: 10px 20px;
     background-repeat: no-repeat;
@@ -44,13 +76,13 @@ header#header .logo-img {
   background-image:url(../img/leftangle.png);
   right: 6rem;
   bottom: -20px;
-  /* background-color: #000; */
+  background-color: #000;
   top: unset;
   background-size: 10px 20px;
     background-repeat: no-repeat;
     filter: brightness(0.1);
     z-index: 2;
-}
+} */
 /* .sproduct button.slick-next.slick-arrow {
   position: absolute;
   bottom: -60px;
@@ -214,6 +246,12 @@ header#header .logo-img {
 /* Sidebar Css End Here */
 
 /* Products Col Css Start Here */
+.nav-tabs li.nav-item a.nav-link.active img.img-fluid {
+  filter: brightness(0) invert(1);
+}
+.nav-tabs li.nav-item a.nav-link img.img-fluid {
+  filter: brightness(0);
+}
 div#profile .product-img button.custombtn{
   left: 5px;
     top: -21px;
@@ -653,9 +691,9 @@ section.right_bar_addtocart .btn-group {
 }
 .sproduct .slick-next:before{
   content: "";
-  background:url(../img/right-angle.png);
+  /* background:url(../img/right-angle.png); */
 }
 .sproduct .slick-prev:before{
   content: "";
-  background:url(../img/leftangle.png);
+  /* background:url(../img/leftangle.png); */
 }
