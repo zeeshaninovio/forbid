@@ -18,8 +18,11 @@
     border: none;
     padding: 17px 24px;
   }
-  div#accordion .card {
+  div#accordion .card:not(:first-child) {
     border-top: 1px solid #777575 !important;
+}
+  div#accordion .card {
+    /* border-top: 1px solid #777575 !important; */
     border-radius: 0px;
     border: none;
   }

@@ -64,6 +64,9 @@ h6 {
   font-family: "playfair-regular";
   color: #ffffff;
 }
+.head h4 {
+  font-size: 30px;
+}
 .head {
   background: url(../img/contactus1.png);
   height: 253px;
@@ -116,11 +119,11 @@ header#header {
   padding: 2rem 5rem;
 }
 .header-icon i {
-  font-size: 19px;
+  font-size: 15px;
   color: #fff;
   background: #000;
   margin-right: 10px;
-  padding: 0.6rem;
+  padding: 8px;
   border-radius: 50%;
 }
 
@@ -148,7 +151,7 @@ header#header {
 .product-img img.img-fluid {
   width: 150px;
   margin: auto;
-  height: 160px;
+  height: 200px;
 }
 .products-par p {
   color: #a97e45;

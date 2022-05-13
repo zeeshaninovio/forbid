@@ -164,7 +164,7 @@
                                     </table>
                                 </div>
                                 <!-- pagination starts here -->
-                                <div class="pagination-wrapper">
+                                <div class="pagination-wrapper mt-3">
                                     <nav aria-label="Page navigation example">
                                         <ul class="pagination">
                                             <li class="page-item">

@@ -23,17 +23,33 @@ header#header .logo-img {
 .sproduct .slick-prev {
   left: 6rem;
   bottom: -20px;
-  background: #000;
+  /* background: #000; */
   top: unset;
 }
 
 .sproduct .slick-next {
   content: "";
-  /* background-image:url(../img/leftangle.png); */
+  background-image:url(../img/right-angle.png);
   right: 6rem;
   bottom: -20px;
-  background-color: #000;
+  /* background-color: #000; */
   top: unset;
+  background-size: 10px 20px;
+    background-repeat: no-repeat;
+    filter: brightness(0.1);
+    z-index: 2;
+}
+.sproduct .slick-prev {
+  content: "";
+  background-image:url(../img/leftangle.png);
+  right: 6rem;
+  bottom: -20px;
+  /* background-color: #000; */
+  top: unset;
+  background-size: 10px 20px;
+    background-repeat: no-repeat;
+    filter: brightness(0.1);
+    z-index: 2;
 }
 /* .sproduct button.slick-next.slick-arrow {
   position: absolute;
@@ -634,4 +650,12 @@ section.right_bar_addtocart .btn-group {
 /* seciton right bar css end  */
 .product_stars_icon i{
   font-size: 12px;
+}
+.sproduct .slick-next:before{
+  content: "";
+  background:url(../img/right-angle.png);
+}
+.sproduct .slick-prev:before{
+  content: "";
+  background:url(../img/leftangle.png);
 }

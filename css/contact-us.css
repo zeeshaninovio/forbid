@@ -18,6 +18,9 @@ section.section-detail-form .contact-us-detail h5 {
     color: #A97E45;
     font-weight: 600;
 }
+section.section-detail-form .contact-us-form h5 {
+  color: #000;
+}
 section.section-detail-form .contact-us-detail {
     margin-top: 2rem;
 }

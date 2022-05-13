@@ -41,15 +41,15 @@
         <div class="footer-copyright">
             <div class="for-all-copy-right-links">
                 <div class="terms-and-faqs">
-                    <a href="">Terms & Conditions</a> &nbsp;&nbsp;&nbsp;
-                    <a href="">FAQS</a>
+                    <a href="termsncondition.php">Terms & Conditions</a> &nbsp;&nbsp;&nbsp;
+                    <a href="faqs.php">FAQS</a>
                 </div>
                 <div class="all-right-reserved">
                     <span>©ForbidDricks | All Rights Reserved</span>
                 </div>
                 <div class="about-us-privacy">
-                    <a href="">About US</a>&nbsp;&nbsp;&nbsp;
-                    <a href="">Privacy policy</a>
+                    <a href="about-us.php">About US</a>&nbsp;&nbsp;&nbsp;
+                    <a href="privacypolicy.php">Privacy policy</a>
                 </div>
             </div>
         </div>
