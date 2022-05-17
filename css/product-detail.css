@@ -9,6 +9,11 @@
 .product_detail {
   padding: 60px 0;
 }
+.picture_box .product-single-image img.img-fluid {
+  width: 540px;
+  max-width: 540px;
+  height: 720px;
+}
 .product_detail .picture_box .product_images figure {
   text-align: center;
 }
@@ -18,7 +23,7 @@
 }
 .product_detail .product_details_dv .name_box h3 {
   color: #000000;
-  font-size: 52px;
+  font-size: 40px;
 }
 .product_detail .product_details_dv ul.ratings {
   padding: 0;
@@ -35,20 +40,25 @@
 }
 .product_detail .product_details_dv .description p {
   color: #6d6d6d;
+  font-size: 14px;
 }
 .product_detail .product_details_dv .detail_box {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 1rem;
 }
 .product_detail .product_details_dv .detail_box h4.property {
   color: #000;
-  font-size: 20px;
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 0px;
 }
 .product_detail .product_details_dv .detail_box h4.value {
   color: #000000;
   font-size: 20px;
+  font-family: 'tmo';
+  margin-right: 5.5rem;
+  margin-bottom: 0;
 }
 .product_detail .product_details_dv .detail_box .sizes label h5 {
   color: #6d6d6d;
@@ -61,6 +71,7 @@
   text-align: center;
   margin-right: 7px;
   font-weight: 300;
+  margin-bottom: 0;
 }
 .product_detail .product_details_dv .detail_box .sizes label {
   position: relative;
@@ -139,8 +150,9 @@
   border: 1px solid #a97e45;
   padding: 12px 28px;
   font-weight: 400;
-  text-transform: uppercase;
-  margin: 10px 0px;
+  /* text-transform: uppercase; */
+  /* margin: 10px 20px 10px 0; */
+  margin-right: 20px;
 }
 .product_detail .product_details_dv .detail_box h4.value.ez {
   color: #6d6d6d;
@@ -156,7 +168,7 @@
   margin-right: 2rem;
 }
 .product_detail .product_details_dv .detail_box img {
-  width: 120px;
+  /* width: 120px; */
 }
 .product_detail .product_details_dv .detail_box .dropdown a.btn {
   padding: 0;
@@ -293,6 +305,22 @@ section.right_bar_addtocart .cancel {
 section.right_bar_addtocart .total-addtocart {
   display: flex;
   justify-content: space-between;
+}
+section.right_bar_addtocart .total-addtocart p:nth-child(2) {
+  font-family: 'tmo';
+  font-weight: 600;
+}
+.addtocart_right .add_to_cart_content div p:nth-child(2) {
+  color: #6D6D6D;
+  font-size: 14px;
+}
+p.right_sam_txt {
+  color: #AFAFAF;
+  font-size: 14px;
+}
+.addtocart_right .add_to_cart_content div p:nth-child(3) {
+  font-family: 'tmo';
+  font-weight: 600;
 }
 section.right_bar_addtocart .btn-group a.custombtn.ptc.mt-5 {
   margin-top: 1rem !important;

@@ -10,7 +10,7 @@
 <section class="product_detail">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="picture_box">
                     <div class="product-single-image">
                         <figure><img src="img/detail-img.png" class="img-fluid"></figure>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <div class="product_details_dv">
                     <div class="name_box">
                         <h3>Bavaria Alco</h3>
@@ -114,7 +114,7 @@
                                 </div>
                             </div> -->
                         </div>
-                        <div class="detail_box mt-4">
+                        <div class="detail_box ">
                             <h4 class="property">Pairings & Ocassions:</h4>
                             <figure><img src="img/dropdown2.png" class="img-fluid"></figure>
                         </div>
@@ -139,6 +139,7 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-2"></div>
         </div>
     </div>
     <section class="right_bar_addtocart">
@@ -195,7 +196,7 @@
                 <p>$1820</p>
             </div>
             <hr>
-            <p>Shipping, Taxes and discounts will be calculated at checkout</p>
+            <p class="right_sam_txt">Shipping, Taxes and discounts will be calculated at checkout</p>
         </div>
         <div class="btn-group">
             <a class="custombtn ptc" href="checkout.php">Proceed To Checkout</a>

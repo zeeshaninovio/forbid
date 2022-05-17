@@ -61,7 +61,8 @@
             <li class="nav-link"><a class="text-black" href="index.php">Home</a></li>
             <li class="nav-link"><a class="text-black" href="shop.php">Shop</a></li>
             <li class="nav-link"><a class="text-black" href="about-us.php">About Us</a></li>
-            <li class="nav-link"><a class="text-black" href="contact-us.php">Contacts</a></li>
+            <li class="nav-link"><a class="text-black" href="ourbrands.php">Our Brands</a></li>
+            <li class="nav-link"><a class="text-black" href="contact-us.php">Contact Us</a></li>
             <li class="nav-link"><a class="text-black" href="signin.php">Sign In</a></li>
             <!-- <li class="d-flex for-search-in-nav"><input type="text" placeholder="Search..">
                 <div class="searchbtn"><img src="img/search.png" alt=""></div>

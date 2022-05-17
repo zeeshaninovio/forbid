@@ -3,18 +3,21 @@
 <!-- header section-->
 
 <style>
-    header#header .text-center.header-icon {
+header#header .text-center.header-icon {
     display: none;
 }
-    .logo-in-top img {
-  filter: brightness(0) invert(1);
+
+.logo-in-top img {
+    filter: brightness(0) invert(1);
+    width: 145px;
 }
+
 header#header {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    padding: 2rem 5rem;
+    padding: 4rem 5rem;
     z-index: 9;
 }
 
@@ -90,7 +93,7 @@ header#header {
                                     <img src="img/cat-2.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="category-name">
-                                    <h4 class="mt-2">CREAM LIQUEURS</h4>
+                                    <h4 class="mt-4">HERB LIQUEURS</h4>
                                 </div>
                             </div>
                         </div>
@@ -100,7 +103,7 @@ header#header {
                             class="single-category d-flex align-items-end wow animate__animated animate__fadeInUp animate__delay-1s">
                             <div class="single-category-inner">
                                 <div class="category-name">
-                                    <h4>CREAM LIQUEURS</h4>
+                                    <h4>HERB LIQUEURS</h4>
                                 </div>
                                 <div class="categpry-picture">
                                     <img src="img/cat-3.png" class="img-fluid" alt="">
@@ -113,7 +116,7 @@ header#header {
                             class="single-category d-flex align-items-start wow animate__animated animate__fadeInRight animate__delay-1s">
                             <div class="single-category-inner">
                                 <div class="category-name">
-                                    <h4>CREAM LIQUEURS</h4>
+                                    <h4>FRUIT LIQUEURS</h4>
                                 </div>
                                 <div class="categpry-picture">
                                     <img src="img/cat-4.png" class="img-fluid" alt="">
@@ -247,7 +250,8 @@ header#header {
                                     <div class="card">
                                         <div class="card-header" id="headingOne">
                                             <h2 class="mb-0">
-                                                <button class="btn btn-link btn-block text-left collapsed yellowish-heading"
+                                                <button
+                                                    class="btn btn-link btn-block text-left collapsed yellowish-heading"
                                                     type="button" data-toggle="collapse" data-target="#collapseOne"
                                                     aria-expanded="true" aria-controls="collapseOne">
                                                     Tasting notes
@@ -434,12 +438,12 @@ header#header {
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
                             data-slide="prev">
-                            <span><img src="img/leftangle.png" alt=""></span>
+                            <!-- <span><img src="img/leftangle.png" alt=""></span> -->
                             <span class="sr-only">Previous</span>
                         </a>
                         <a class="carousel-control-next" href="#carouselExampleControls" role="button"
                             data-slide="next">
-                            <span><img src="img/right-angle.png" alt=""></span>
+                            <!-- <span><img src="img/right-angle.png" alt=""></span> -->
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
@@ -460,7 +464,33 @@ header#header {
                                 dolo</p>
                         </div>
                         <div class="for-sthe-slickslider">
-                            <div class="row">
+                            <div class="single-slick-card slick-active-card todolist">
+                                <div>
+                                    <img src="img/slick-1.png" width="100%" class="img-fluid" alt="">
+                                    <div class="text-inc-slick-card">
+                                        <h5>GINS</h5>
+                                    </div>
+                                </div>
+                                <div class="single-slick-card">
+                                    <img src="img/slick-2.png" class="img-fluid" alt="">
+                                    <div class="text-inc-slick-card">
+                                        <h5>RUMS</h5>
+                                    </div>
+                                </div>
+                                <div>
+                                    <img src="img/slick-1.png" width="100%" class="img-fluid" alt="">
+                                    <div class="text-inc-slick-card">
+                                        <h5>GINS</h5>
+                                    </div>
+                                </div>
+                                <div class="single-slick-card">
+                                    <img src="img/slick-2.png" class="img-fluid" alt="">
+                                    <div class="text-inc-slick-card">
+                                        <h5>RUMS</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="single-slick-card slick-active-card">
                                         <div>
@@ -479,7 +509,7 @@ header#header {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                         <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">

@@ -19,6 +19,22 @@ header#header .logo-img {
   font-weight: 600;
   font-size: 18px;
   margin: 0;
+  display: inline;
+}
+span.del-txt {
+  font-family: 'tmo';
+  color: #c7c9cb;
+  text-decoration: line-through;
+  margin-left: 6px;
+}
+.shop_sec .shop-sidebar .shop_by_brand .custombtn1 {
+  font-family: 'playfair-regular';
+}
+.shop_sec .shop-sidebar .custombtn1 {
+  font-size: 14px;
+}
+.shop_sec .shop-sidebar .shop_by_speciality .custombtn1 {
+  font-family: 'playfair-regular';
 }
 .sproduct .slick-prev {
   left: 6rem;
@@ -35,12 +51,12 @@ header#header .logo-img {
   position: absolute;
   right: 6rem;
   top: unset;
-  bottom: -20px;
+  bottom: -5.5rem;
   /* left: 9px; */
   width: 13px;
   height: 13px;
   border: solid #000;
-  border-width: 0 2px 2px 0;
+  border-width: 0 1px 1px 0;
   transform: rotate(313deg);
   z-index: 9;
 }
@@ -50,12 +66,12 @@ header#header .logo-img {
   position: absolute;
   right: 6rem;
   top: unset;
-  bottom: -20px;
+  bottom: -5.5rem;
   /* left: 9px; */
   width: 13px;
   height: 13px;
   border: solid #000;
-  border-width: 0 2px 2px 0;
+  border-width: 0 1px 1px 0;
   transform: rotate(134deg);
   z-index: 9;
 }
@@ -262,13 +278,14 @@ div#profile .product-sec.row {
 }
 .product-sec.row .secnd-tab {
   text-align: left;
+  margin: auto;
 }
 section.shop_sec a {
   text-decoration: none;
   color: #000;
 }
 section.shop_sec .product-sec {
-  margin: 1rem 0;
+  margin: .6rem   0;
 }
 .product-img {
   position: relative;
@@ -280,6 +297,7 @@ section.shop_sec .product-sec {
   color: #fff;
   background: #a97e45;
   border-color: #a97e45;
+  padding: 0.2rem 1.5rem;
 }
 .product-img i.fa.fa-heart {
   position: absolute;
@@ -423,7 +441,7 @@ section.right_bar_addtocart.show {
   text-decoration: none;
 }
 .shop_sec ul.paginations {
-  margin: 50px auto 0;
+  margin: 40px auto 40px;
   padding: 0;
   list-style: none;
   display: table;
@@ -453,6 +471,7 @@ section.right_bar_addtocart.show {
   color: #6D6D6D;
   background: #fff;
     border: 0;
+    border-radius: unset;
 }
 .btn-outline-secondary.active, .btn-outline-secondary:active, .show_p>.btn-outline-secondary.dropdown-toggle{
   background-color: #ccc;

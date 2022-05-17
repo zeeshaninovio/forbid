@@ -123,6 +123,7 @@
                                     <p>
                                         $525.00
                                     </p>
+
                                 </div>
                                 <div class="product_stars_icon">
                                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -153,6 +154,7 @@
                                     <p>
                                         $525.00
                                     </p>
+
                                 </div>
                                 <div class="product_stars_icon">
                                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -250,6 +252,9 @@
                                                     <p>
                                                         $525.00
                                                     </p>
+                                                    <span class="del-txt">
+                                                        $950.00
+                                                    </span>
                                                 </div>
                                                 <div class="product_stars_icon">
                                                     <i class="fa fa-star" aria-hidden="true"></i>
@@ -287,6 +292,9 @@
                                                     <p>
                                                         $525.00
                                                     </p>
+                                                    <span class="del-txt">
+                                                        $950.00
+                                                    </span>
                                                 </div>
                                                 <div class="product_stars_icon">
                                                     <i class="fa fa-star" aria-hidden="true"></i>

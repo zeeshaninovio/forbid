@@ -7,9 +7,9 @@
 <section class="contact-us-page">
     <section class="section-head">
         <div class="head">
-            <h4>About Us</h4>
+            <h4>Our Brands</h4>
             <p>
-                Home / About Us
+                Home / Our Brands
             </p>
         </div>
     </section>
