@@ -452,8 +452,10 @@ body {
 
 .banner-text-start p {
   font-size: 10px;
-  color: #ffffff;
-  opacity: 0.6;
+  /* color: #ffffff; */
+  color: #97887a;
+  /* opacity: 0.6; */
+  font-weight: lighter;
 }
 
 .banner-text-start a.btn {
