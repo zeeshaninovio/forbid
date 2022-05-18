@@ -14,8 +14,9 @@
 }
 .checkout h3 {
   /* font-weight: 700; */
-  font-size: 20px;
-  color: #000;
+    font-size: 18px;
+    color: #000;
+    font-family: 'playfair-regular';
 }
 /* First Column Css Start Here */
 .checkout .first-top-bar {
@@ -47,6 +48,7 @@
 .checkout .first-top-bar p a {
   font-weight: 500;
   color: #000;
+  font-family: system-ui;
 }
 .checkout label {
   font-size: 15px;
@@ -98,6 +100,10 @@
 .checkout .saved-address .title h5 {
   font-size: 15px;
   color: #000;
+  font-weight: 600;
+}
+.checkout .cart-product-detail .title h3 {
+  font-weight: 600;
 }
 /* The container */
 .checkout .saved-address .container {
@@ -540,6 +546,7 @@ sss .checkout .add-new-address label.container span.checkmark {
 /* Second Column Css Start Here */
 .second-top-bar button.custombtn {
   width: -webkit-fill-available;
+  text-transform: uppercase;
 }
 .checkout .second-top-bar .form-group {
   display: flex;
@@ -680,7 +687,7 @@ sss .checkout .add-new-address label.container span.checkmark {
   font-size: 17px;
   color: #000000;
   font-weight: 500;
-  font-family: "Montserrat";
+  font-family: 'playfair-regular';
 }
 .checkout .cart-product-detail .pricing-details .item-total h4.value {
   font-size: 18px;
@@ -873,6 +880,7 @@ sss .checkout .add-new-address label.container span.checkmark {
 .checkout .form-group.customcheck label {
   position: relative;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .checkout .form-group.customcheck label:before {
@@ -888,16 +896,28 @@ sss .checkout .add-new-address label.container span.checkmark {
   cursor: pointer;
   margin-right: 5px;
   border-radius:50%;
+  margin-bottom: 4px;
 }
 
 .checkout .form-group.customcheck input:checked + label:after {
   content: '';
   display: block;
   position: absolute;
+  top: 6px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+  background: #A97E45;
+  border-radius:50%;
+}
+.checkout .form-group.customcheck input#anp:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
   top: 7px;
-  left: 3px;
-  width: 10px;
-  height: 10px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
   background: #A97E45;
   border-radius:50%;
 }
@@ -955,9 +975,19 @@ sss .checkout .add-new-address label.container span.checkmark {
 /* responsive starts here */
 @media (max-width: 480px) {
   .checkout .container {
-    padding: 60px 18px;
-    margin: 20px;
+    /* padding: 60px 18px; */
+    /* margin: 20px; */
+    padding: 2rem 20px;
   }
+  .checkout .payment-details .saved-payment-method label.container span.checkmark .card-details .visa-card{
+    padding-left: 0;
+  }
+  .checkout .payment-details .saved-payment-method label.container span.checkmark .card-details .visa-card .input-box {
+    width: 207px;
+}
+.checkout .payment-details .saved-payment-method label.container span.checkmark .card-details .radio-btn span{
+  left:5px;
+}
 }
 @media (max-width: 414px) {
   .checkout .cart-product-detail .products .product-price h4.price {

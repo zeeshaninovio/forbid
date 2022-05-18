@@ -43,16 +43,16 @@ section.inner-banner-sec {
   text-align: center;
 }
 .thankyou-sec .head-wrap h1 {
-  font-size: 45px;
+  font-size: 35px;
   color: #A97E45;
   /* font-family: "Montserrat"; */
   font-weight: 700;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .thankyou-sec .head-wrap h4 {
-  font-size: 22px;
+  font-size: 20px;
   color: #262626;
-  font-family: "Montserrat";
+  font-family: "playfair-regular";
   font-weight: 700;
 }
 .thankyou-sec .order-nmber {
@@ -70,7 +70,7 @@ section.inner-banner-sec {
   padding: 40px 40px;
 }
 .thankyou-sec .order-detail h5 {
-  font-size: 20px;
+  font-size: 18px;
   color: #262626;
   padding-bottom: 5px;
   font-family: "Montserrat";
@@ -113,6 +113,7 @@ section.inner-banner-sec {
 }
 .thankyou-sec .order-detail ul.address li span.property {
   width: 100px;
+  font-family: "Montserrat";
 }
 .thankyou-sec .order-detail .order-total {
   padding-top: 20px;
@@ -123,7 +124,7 @@ section.inner-banner-sec {
 }
 .thankyou-sec .order-detail .order-total h3.property {
   color: #A97E45;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Montserrat";
   font-weight: 600;
 }

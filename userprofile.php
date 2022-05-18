@@ -98,7 +98,7 @@
                     <div class="tab-pane fade" id="v-pills-order" role="tabpanel" aria-labelledby="v-pills-order-tab">
                         <!-- orders starts here -->
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-lg-12 address_content">
                                 <h3 class="form-heading">My Orders</h3>
                                 <div class="order-table-wrapper table-responsive">
                                     <table>
@@ -291,19 +291,20 @@
                     <div class="tab-pane fade" id="v-pills-payment" role="tabpanel"
                         aria-labelledby="v-pills-payment-tab">
                         <!-- Second Tab Content Start Here -->
-                        <div class="heading">
-                            <h3>Payment</h3>
-                        </div>
+
                         <div class="row card-wrapper">
-                            <div class="col-lg-8 col-md-12">
+                            <div class="col-lg-8 col-md-12 address_content">
+                                <div class="heading">
+                                    <h3>Payment</h3>
+                                </div>
                                 <form>
                                     <div class="form-group">
                                         <label for="CardNumber">Card Number</label>
                                         <input type="email" class="form-control" id="CardNumber"
-                                            placeholder="                                                                                                mm/yy  cvc"
+                                            placeholder="                                                                                    mm/yy  cvc"
                                             required="">
                                     </div>
-                                    <div class="row">
+                                    <div class="row mt-3 mb-5">
                                         <div class="col-lg-8 p-0">
                                             <div class="payment-icon">
                                                 <img class="img-fluid payimg" src="img/payment1.png" alt="">
@@ -385,7 +386,7 @@
                     <div class="tab-pane fade" id="v-pills-address" role="tabpanel"
                         aria-labelledby="v-pills-address-tab">
                         <div class="row">
-                            <div class="col-lg-10 ">
+                            <div class="col-lg-10 address_content">
                                 <div class="address-form-wrapper">
                                     <h3 class="form-heading">Addresses</h3>
                                     <form action="">

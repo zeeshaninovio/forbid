@@ -9,7 +9,7 @@
                     <div class="col-md-6">
                         <div class="footer-single-side for-left-side-barder text-center">
                             <h6 class="yellowish-heading">Contact us</h6>
-                            <div class="footer-links mt-5">
+                            <div class="footer-links mt-3">
                                 <p>
                                     1234 Lorem ipsum Dolor isset <br>
                                     Consectetur, CA 12345
@@ -22,7 +22,7 @@
                     <div class="col-md-6">
                         <div class="footer-single-side text-center">
                             <h6 class="yellowish-heading">Hours & Timing</h6>
-                            <div class="footer-links mt-5">
+                            <div class="footer-links mt-3">
                                 <p>
                                     8:00 am - 6:00 pm | Monday - Friday
                                 </p>

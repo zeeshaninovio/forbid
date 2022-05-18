@@ -16,8 +16,10 @@ figure {
 }
 .profile h3.username {
   color: #2a263d;
-  font-family: "Montserrat";
-  font-size: 25px;
+  /* font-family: "Montserrat"; */
+  font-family: inherit;
+    font-size: 23px;
+    font-weight: 700;
 }
 .profile-img img {
   /* margin-top: -96px; */
@@ -39,14 +41,14 @@ figure {
 }
 .profile-tabs-wrapper {
   padding: 10px 0px;
-  border: 1px solid #dadada;
+  border: 1px solid #dadada63;
 }
 .profile-tabs-wrapper .nav-pills .nav-link.active {
   background: transparent;
   color: inherit;
 }
 .profile .profile-row {
-  padding-top: 100px;
+  padding-top: 30px;
 }
 .profile-img {
   position: relative;
@@ -73,12 +75,19 @@ figure {
 .profile .profile-links-wrapper a.nav-link {
   color: #2a263d !important;
   /* font-family: "Montserrat"; */
-  font-size: 20px;
-  line-height: 36px;
-  font-weight: 600;
+  font-size: 16px;
+    line-height: 36px;
+    font-weight: 600;
+    /* margin-bottom: 5px; */
+}
+.account-form-wrapper {
+  margin-top: 20px;
+  padding-left: 4rem;
 }
 section.profile a.btn.btn-large.custombtn {
-  width: 100%;
+  /* width: 100%; */
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
 }
 .profile-links-wrapper .nav-link{
   padding: 0em 1em;
@@ -100,10 +109,28 @@ section.profile a.btn.btn-large.custombtn {
     bottom: -9px;
   }
 }
+@media (max-width: 480px) {
+  .profile .profile-row {
+    padding-top: 80px;
+  }
+  .account-form-wrapper{
+    padding-left: 0;
+  }
+  .wishlist-table-wrapper{
+    padding-left: 0;
+  }
+}
 /* / account form css starts here / */
 .account-form-wrapper input {
   border-radius: 0px;
-  border: 1px solid #b8b8b8;
+  /* border: 1px solid #b8b8b8; */
+  border: 1px solid #b8b8b833;
+}
+.account-form-wrapper button.btn.custombtn {
+  margin-top: 1.5rem;
+}
+.account-form-wrapper .form-group {
+  margin-bottom: 1.5rem;
 }
 .profile .account-form-wrapper label {
   color: #2a263d;
@@ -165,7 +192,7 @@ h3.form-heading {
   font-family: "Montserrat";
   font-weight: bold;
   text-decoration: underline;
-  font-size: 14px;
+  font-size: 12px;
 }
 .pagination-wrapper a.page-link {
   display: flex;
@@ -181,8 +208,9 @@ h3.form-heading {
   font-style: normal !important;
   border: 0;
 }
-.pagination li a i {
+.wishlist-table-wrapper .pagination li a i {
   line-height: 0px;
+  color: #00000047;
 }
 ul.pagination li.page-item:first-child a.page-link,
 ul.pagination li.page-item:last-child a.page-link {
@@ -364,11 +392,40 @@ h5.product-name {
 /* / wishlist css starts here / */
 .wishlist-table-wrapper {
   margin-top: 40px;
+  padding-left: 4rem;
+}
+@media (max-width: 480px){
+  .wishlist-table-wrapper {
+    padding-left: 0;
+}
+}
+
+div#v-pills-order .order-table-wrapper .row2 td {
+  font-size: 13px;
+}
+div#v-pills-order .pagination-wrapper ul.pagination {
+  align-items: center;
+}
+div#v-pills-order ul.pagination li.page-item:first-child a.page-link, ul.pagination li.page-item:last-child a.page-link i {
+  color: #0000005c;
+}
+div#v-pills-address .address-form-wrapper h3.form-heading {
+  margin-bottom: 2rem;
+  font-size: 20px;
+}
+div#v-pills-address .address-form-wrapper button.btn.custombtn {
+  padding: 0.7rem 5.3rem;
+  margin-bottom: 5px;
+}
+td.wishlist-image img {
+  height: 80px;
+  width: 80px;
+    max-width: 80px;
 }
 .wishlist-table-wrapper tr.row1 th {
-  padding: 13px;
+  padding: 13px 23px;
   background: #f2f2f2;
-  font-family: "Montserrat";
+  font-family: "playfair-regular";
   font-size: 12px;
 }
 .wishlist-table-wrapper tr.row1 th.wish-img {
@@ -377,7 +434,7 @@ h5.product-name {
 .wishlist-table-wrapper td.wishlist-product h4 {
   color: #1f2c35;
   font-family: "Montserrat";
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
 }
 .profile-img figure {
@@ -406,7 +463,7 @@ h5.product-name {
 }
 .wishlist-table-wrapper td.wishlist-price h6 {
   color: #A97E45;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Montserrat";
   font-weight: 600;
 }
@@ -417,6 +474,7 @@ h5.product-name {
 .wishlist-table-wrapper tr.row2 td {
   margin: 0;
   padding: 0;
+  padding: 0 2rem;
 }
 .wishlist-table-wrapper tr.row2 {
   border-bottom: 1px solid #707070;
@@ -594,6 +652,16 @@ h5.product-name {
 }
 .saved-address .edits h6 {
   margin-right: 22px;
+  color: #000;
+}
+.address-form-wrapper button.btn.custombtn {
+  text-transform: uppercase;
+}
+.address_content {
+  padding-left: 4rem;
+}
+.card-wrapper form {
+  margin-top: 2rem;
 }
 @media screen and (max-width: 991px) {
   .plans {
@@ -668,7 +736,8 @@ h5.product-name {
 .saved-address h4 {
   color: #262626;
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 .address-info span.phone {
   margin-left: 13px;
@@ -690,6 +759,7 @@ h5.product-name {
   font-family: "Montserrat";
   font-size: 16px;
   font-weight: 400;
+  color: #000;
 }
 .edits h6 {
   font-size: 16px;
@@ -733,6 +803,11 @@ h5.product-name {
   .edits {
     display: flex;
     flex-direction: row-reverse;
+  }
+}
+@media(max-width:480px){
+  .address_content{
+    padding-left: 1rem;
   }
 }
 /* / address form ends here / */
@@ -904,7 +979,8 @@ h2.scard {
     align-items: center;
     justify-content: space-between;
     border: 1px solid #707070;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
+    padding: 5px 10px;
     position: relative;
 }
 .profile .saveCards label.container input:checked ~ span.checkmark .card-options {
@@ -943,22 +1019,28 @@ h2.scard {
     padding-bottom: 16px;
 }
 .profile .saveCards label.container span.checkmark .card-options .action-btns .use-default label {
-    font-size: 15px;
+    font-size: 14px;
     color: #1F2C35;
-    padding-right: 60px;
+    padding-right: 31px;
+}
+.saveCards h2.scard {
+  font-size: 20px;
+  margin-bottom: 15px;
+    margin-top: 25px;
 }
 .profile .saveCards label.container span.checkmark .card-options .action-btns .use-default span.check-box {
-    width: 18px;
-    height: 18px;
+  width: 14px;
+  height: 14px;
     background: #fff;
     position: absolute;
-    right: 24px;
+    right: 16px;
     border-radius: 50%;
     border: 3px solid #ffffff;
     box-shadow: 0px 0px 0px 1px #f35f63;
 }
 section.profile h2, section.profile h3 {
   color: #000;
+  font-size: 25px;
 }
 .profile .saveCards label.container input:checked ~ span.checkmark .card-options .action-btns .use-default span.check-box {
     background: #f35f63;

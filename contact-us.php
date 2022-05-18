@@ -21,15 +21,19 @@
                     <div class="contact-us-detail">
                         <h5>Contact Details </h5>
                         <p>If you still have any questions, please contact us at our request.</p>
-                        <p>Phone:</p>
+                        <p class="bold_txt">Phone:</p>
                         <p>Toll-Free: <span>866-936-1112</span></p>
                         <p>Local: <span> 415-756-8296</span></p>
                         <p>Fax: <span>800-790-4172</span></p>
-                        <p>Address:</p>
-                        <p>Corporate Office: 538 Stone
-                            Road, Ste D, Benicia, CA 94510</p>
-                        <p>Local Office: 909 Geary St. #324, San Francisco, CA 94109</p>
-                        <p>State of California ID # TSW 385</p>
+                        <p class="bold_txt">Address:</p>
+                        <strong class="cofcolor">Corporate Office:</strong>
+                        <span class="cofcolor"> 538 Stone
+                            Road, Ste D, Benicia, CA 94510</span>
+                        <p>
+                            <strong class="cofcolor">Local Office:</strong>
+                            <span class="cofcolor"> 909 Geary St. #324, San Francisco, CA 94109</span>
+                        </p>
+                        <p >State of California ID # TSW 385</p>
                     </div>
                 </div>
                 <div class="col-md-5">

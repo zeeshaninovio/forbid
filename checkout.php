@@ -9,7 +9,7 @@
     <div class="head">
         <h4>Checkout </h4>
         <p>
-            Home / Your Shopping Cart / Checkout
+            Home  /  Your Shopping Cart / Checkout
         </p>
     </div>
 </section>
@@ -240,7 +240,7 @@
                                     <label class="form-check-label" for="exampleCheck1">Add New Payment</label>
                                 </div> -->
                                 <div class="form-group">
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" placeholder="                                                                                         mm/yy   cvc">
                                 </div>
                                 <button class="custombtn" type="button">Add Card </button>
                             </div>
@@ -248,7 +248,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5">
                     <div class="second-top-bar">
                         <div class="title pb-4">
                             <h3>Order Summery</h3>

@@ -36,6 +36,11 @@ header#header {
 .logo-in-top h6 {
     color: #fff;
 }
+@media (max-width: 575px){
+header#header {
+    padding: 2rem 0rem;
+}
+}
 </style>
 
 <!--  Start Here -->

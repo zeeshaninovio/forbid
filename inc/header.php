@@ -22,12 +22,12 @@
 
 <header id="header">
     <div class="row align-items-center">
-        <div class="col-md-4">
+        <div class="col-md-4 col-3">
             <div class="canvas-icon text-left">
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-4">
             <div class="logo-in-top">
                 <div>
                     <a href="index.php"><img src="img/headlogo.png" class="img-fluid" alt=""></a>
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-5">
             <div class="text-center header-icon">
                 <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
                 <a href="cart.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>

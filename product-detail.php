@@ -77,7 +77,7 @@
                                 <label class="colors_container">
                                     <input type="radio" checked="checked" name="color_radio">
                                     <span class="checkmark">
-                                        <img src="img/color.png" class="img-fluid ">
+                                        <img src="img/color.png" class="img-fluid color_img">
                                     </span>
                                 </label>
                             </div>
@@ -133,7 +133,7 @@
                             </div>
                         </div>
                         <div class="button-group">
-                            <button class="custombtn atc">Add to Cart</button>
+                            <button class="custombtn atc mr-2">Add to Cart</button>
                             <button class="custombtn">Add to Wishlist</button>
                         </div>
                     </div>
@@ -534,16 +534,16 @@
             <div class="col-lg-1"></div>
             <div class="col-lg-7">
                 <div class="row">
-                    <div class="col-md-2">
+                    <div class="col-md-3 col-3">
                         <img src="img/pngegg4.png" class="img-fluid ftgw" alt="">
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3 col-3">
                         <img src="img/pngegg3.png" class="img-fluid ftgw" alt="">
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3 col-3">
                         <img src="img/pngegg2.png" class="img-fluid ftgw" alt="">
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-md-3 col-3">
                         <img src="img/pngegg.png" class="img-fluid ftgw" alt="">
                     </div>
                 </div>

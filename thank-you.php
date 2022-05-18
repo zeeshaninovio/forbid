@@ -7,9 +7,9 @@
 <!-- page banner starts here -->
 <section class="section-head">
     <div class="head">
-        <h4>Checkout </h4>
+        <h4>Order Confirm </h4>
         <p>
-            Home / Your Shopping Cart / Checkout
+            Home / Your Shopping Cart / Order Confirm
         </p>
     </div>
 </section>

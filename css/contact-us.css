@@ -16,10 +16,11 @@ section.section-detail-form .contact-us-detail span {
 }
 section.section-detail-form .contact-us-detail h5 {
     color: #A97E45;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 section.section-detail-form .contact-us-form h5 {
   color: #000;
+  margin-bottom: 2rem;
 }
 section.section-detail-form .contact-us-detail {
     margin-top: 2rem;
@@ -28,6 +29,16 @@ section.section-detail-form .form-group {
     display: block;
     /* margin-bottom: 15px; */
   }
+  section.section-detail-form .contact-us-detail .bold_txt {
+    font-weight: 600;
+    color: #282828;
+}
+section.section-detail-form .contact-us-detail span.cofcolor {
+  color: #4E4E4E;
+}
+strong.cofcolor {
+  font-size: 15px;
+}
   
   section.section-detail-form .form-group input#monthlynews {
     padding: 0;

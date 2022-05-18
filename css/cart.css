@@ -55,7 +55,7 @@
 }
 .single-cart-content-wrapper h4 {
   font-family: "playfair-regular";
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.5;
   /* font-weight: 600; */
   color: #000;
@@ -63,7 +63,7 @@
 .single-cart-content-wrapper p {
   color: #6d6d6d;
   font-family: "playfair-regular";
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 .single-cart-content-wrapper h6 {
@@ -74,6 +74,9 @@
 }
 .summary-content-wrapper h5 span.total-price {
   font-family: 'tmo';
+}
+.order-summry-wrapper {
+  padding: 0 2rem;
 }
 h5.page-head {
   color: #000;
@@ -116,7 +119,7 @@ h5.page-head {
   /* font-weight: 600; */
   color: #000;
   margin-bottom: 30px;
-  font-size: 22px;
+  font-size: 20px;
 }
 .summary-content-wrapper h5 {
   font-family: "playfair-regular";
@@ -128,6 +131,8 @@ h5.page-head {
   color: #6d6d6d;
   font-style: italic;
   margin-bottom: 45px !important;
+  font-size: 14px;
+  padding-right: 1rem;
 }
 .summary-content-wrapper h3 {
   color: #000000;
@@ -190,6 +195,10 @@ h5.page-head {
     width: 103%;
     height: 51px;
     padding: 8px;
+    line-height: 38px;
+  }
+  .add-to-cart{
+    padding: 2rem 0;
   }
 }
 @media (max-width: 360px) {

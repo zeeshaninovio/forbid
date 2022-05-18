@@ -11,7 +11,7 @@ header#header .logo-img {
 
 /* Sidebar Css Start Here */
 .product-sec .product_name p {
-  margin: 0;
+  margin-bottom: 5px;
 }
 .products-par p {
   color: #a97e45;
@@ -51,7 +51,7 @@ span.del-txt {
   position: absolute;
   right: 6rem;
   top: unset;
-  bottom: -5.5rem;
+  bottom: -3.5rem;
   /* left: 9px; */
   width: 13px;
   height: 13px;
@@ -66,7 +66,7 @@ span.del-txt {
   position: absolute;
   right: 6rem;
   top: unset;
-  bottom: -5.5rem;
+  bottom: -3.5rem;
   /* left: 9px; */
   width: 13px;
   height: 13px;
@@ -128,7 +128,7 @@ span.del-txt {
   background: #F9F9F9;
   padding: 12px 6px;
   position: relative;
-  padding-left: 1rem;
+  padding-left: 1.3rem;
 }
 .shop-sidebar .variation-attr .fhead h5:before {
   content: '';
@@ -259,6 +259,9 @@ span.del-txt {
   color: #e9b01d;
   margin-right: 10px;
 }
+.sproduct .product_stars_icon {
+  margin-bottom: 5px;
+}
 /* Sidebar Css End Here */
 
 /* Products Col Css Start Here */
@@ -271,6 +274,15 @@ span.del-txt {
 div#profile .product-img button.custombtn{
   left: 5px;
     top: -21px;
+}
+@media(max-width:480px){
+  div#profile .product-img button.custombtn {
+    left: 18px;
+    top: 30px;
+}
+div#profile .product-sec.row{
+  flex-direction: column;
+}
 }
 div#profile .product-sec.row {
   border: 1px solid #eee;
@@ -285,19 +297,20 @@ section.shop_sec a {
   color: #000;
 }
 section.shop_sec .product-sec {
-  margin: .6rem   0;
+  margin: .4rem   0;
 }
 .product-img {
   position: relative;
 }
 .product-img button.custombtn {
   position: absolute;
-  left: 0;
+  left: 10%;
   top: 0;
   color: #fff;
   background: #a97e45;
   border-color: #a97e45;
-  padding: 0.2rem 1.5rem;
+  /* padding: 0.2rem 1.5rem; */
+  padding: 0px 15px;
 }
 .product-img i.fa.fa-heart {
   position: absolute;
@@ -357,6 +370,11 @@ section.right_bar_addtocart.show {
 }
 .showing-result .nav-tabs .nav-item.show_p .nav-link, .nav-tabs .nav-link{
   background-color: #fff;
+}
+@media(max-width:480px){
+  .showing-result .nav-tabs .nav-item.show_p .nav-link, .nav-tabs .nav-link{
+    padding: 10px;
+  }
 }
 /* .shop_sec .sorting_bar .right-side .show {
   margin-right: 50px;
@@ -646,11 +664,11 @@ div[slider] > input[type="range"]::-ms-tooltip {
 /* Range Slider Css End Here */
 @media (max-width: 575px) {
   .shop_sec .sorting_bar {
-    display: block;
+    /* display: block; */
     text-align: center;
   }
   .shop_sec .sorting_bar .showing-result {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
   }
   .product-box .img_box figure img {
     height: auto;
@@ -715,4 +733,10 @@ section.right_bar_addtocart .btn-group {
 .sproduct .slick-prev:before{
   content: "";
   /* background:url(../img/leftangle.png); */
+}
+@media(max-width:480px){
+  section.shop_sec .row {
+    display: flex;
+    flex-direction: column-reverse;
+}
 }

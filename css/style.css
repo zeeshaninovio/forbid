@@ -66,7 +66,11 @@ h6 {
   color: #ffffff;
 }
 .head h4 {
-  font-size: 30px;
+  font-size: 35px;
+  margin-bottom: 1.5rem;
+}
+section.section-head .head p {
+  word-spacing: 4px;
 }
 .head {
   background: url(../img/contactus1.png);
@@ -77,6 +81,25 @@ h6 {
   justify-content: center;
   color: #fff;
   text-align: center;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 576px) {
+  .head{
+    height: auto;
+    background-size: 100% 100%;
+    padding: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .head{
+    height: auto !important;
+    background-size: 100% 100%  !important;
+    padding: 30px;
+  }
+  .head h4 {
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+}
 }
 .form-control {
   border-radius: 0;
@@ -130,7 +153,17 @@ header#header {
   padding: 8px;
   border-radius: 50%;
 }
-
+@media (max-width: 575px) {
+  header#header  {
+    padding: 2rem 0rem;
+  }
+  header#header {
+    overflow-x: hidden;
+}
+.header-icon i {
+  margin-right: 5px;
+}
+}
 /* Product Css Start Here */
 .product-sec {
   text-align: center;
@@ -240,7 +273,7 @@ header#header {
   padding-left: 40px !important;
 }
 .mobile-header .navbar-nav .nav-link {
-  padding: 1rem;
+  padding: .8rem;
 }
 li.nav-link a {
   color: #ffffff;
@@ -345,44 +378,6 @@ li.nav-link a {
     width: 55%;
   }
 }
-
-/* Mobile Header */
-/* 
-@font-face {
-  font-family: "Montserrat-Medium";
-  src: url(../fonts/static/Montserrat-Medium.ttf);
-}
-
-@font-face {
-  font-family: "Montserrat-Bold";
-  src: url(../fonts/static/Montserrat-Bold.ttf);
-}
-
-@font-face {
-  font-family: "Montserrat-regular";
-  src: url(../fonts/static/Montserrat-Regular.ttf);
-}
-
-@font-face {
-  font-family: "Montserrat-semibold";
-  src: url(../fonts/static/Montserrat-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: "Barlow-semibold";
-  src: url(../fonts/barlow/Barlow-SemiBold.ttf);
-}
-
-@font-face {
-  font-family: "popins-medium";
-  src: url(../fonts/Poppins-Medium.ttf);
-}
-
-@font-face {
-  font-family: "Poppins-Regular";
-  src: url(../fonts/Poppins-Regular.ttf);
-}*/
-
 body {
   margin: 0px;
   padding: 0px;
@@ -401,6 +396,21 @@ body {
   /* height: 100%; */
   /* height: 743px; */
 }
+@media(max-width:1280px){
+  .banner-homepage{
+    height: 900px;
+  }
+}
+@media(max-width:1024px){
+  .banner-homepage{
+    height: 1000px;
+  }
+}
+/* @media(max-width:767px){
+  .banner-homepage{
+    height: 1070px;
+  }
+} */
 .banner-homepage .banner-text-start h4 {
   font-size: 20px;
   margin-bottom: 1.8rem;
@@ -520,13 +530,14 @@ body {
     bottom: -45px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    left: 46%;
+    left: 0;
+    right: 0;
 }
 
 /* our process start */
 .our-process-start {
   padding-top: 50px;
-  padding-bottom: 67px;
+  padding-bottom: 56px;
 }
 
 .our-process-text-top {
@@ -546,6 +557,16 @@ body {
 /* Process- boxes */
 .single-process {
   padding-left: 6.5%;
+}
+@media (max-width: 480px){
+  .single-process {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .single-process {
+    padding-left: 0;
+  }
 }
 
 .single-process-box {
@@ -581,13 +602,13 @@ body {
 }
 
 .for-read-more-in-process {
-  margin-top: 35px;
+  /* margin-top: 35px; */
 }
 
 .for-read-more-in-process a {
   color: #a97e45;
   font-size: 14px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 /* Process End Here  */
@@ -609,6 +630,10 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
+  margin-top: -2rem;
+}
+.everyoneliking-right-taste h1 {
+  margin-top: 1.5rem;
 }
 section.blogs-in-home .single-blog-card {
   padding-right: 10px;
@@ -619,6 +644,11 @@ section.blogs-in-home .single-blog-card {
   /* font-style: italic; */
   margin-bottom: 0px;
   font-family: "playfair-regular";
+}
+@media screen and (max-width: 576px) {
+  .everyoneliking-right-taste{
+    margin-top: 1rem;
+  }
 }
 
 /* .everyoneliking-right-taste h6{
@@ -633,6 +663,7 @@ section.blogs-in-home .single-blog-card {
 .inside-accordian-box {
   background-color: #ffffff;
   padding: 86px 50px 89px 30px;
+  margin-right: 5rem;
 }
 
 .top-text-in-accrodian-box h1 {
@@ -685,7 +716,7 @@ section.blogs-in-home .single-blog-card {
 
 /* Wine for everyone start */
 .wine-for-every-one {
-  padding: 70px 0px;
+  padding: 80px 0px;
 }
 
 .single-wine-for-everyone {
@@ -743,7 +774,7 @@ section.blogs-in-home .single-blog-card {
     width: 100%;
   }
   .single-slick-card {
-    margin-top: 25px;
+    margin-top: 0px;
   }
   .single-category {
     display: unset !important;
@@ -759,11 +790,11 @@ section.blogs-in-home .single-blog-card {
   }
 
   .chat-now-btn {
-    position: absolute;
-    bottom: -23px;
-    right: 29px;
-    width: 106px;
-  }
+    position: fixed;
+    bottom: 45px;
+    right: 30px;
+    width: 140px;
+}
 
   .single-wine-for-everyone {
     margin-top: 68px;
@@ -774,6 +805,12 @@ section.blogs-in-home .single-blog-card {
   .text-in-process-box {
     padding: 0px;
   }
+  .chat-now-btn {
+    position: fixed;
+    bottom: 45px;
+    right: 30px;
+    width: 140px;
+}
 }
 
 /* top ten section start */
@@ -909,7 +946,17 @@ div#carouselExampleControls .carousel-control-next {
   color: #000000;
   opacity: 0.5;
 }
-
+@media screen and (max-width: 576px) {
+  div#carouselExampleControls .carousel-inner{
+    width: 100%;
+    margin-left: 0;
+  }
+  .text-inc-slick-card{
+    width: 311px;
+    bottom: 25px;
+  }
+}
+/* top ten section end */
 /* Blogs CSS Start */
 .all-blogs {
   margin-top: 65px;
@@ -936,6 +983,8 @@ div#carouselExampleControls .carousel-control-next {
   background-image: url(../img/news-letter.png);
   padding: 154px 0px;
   background-size: cover;
+  background-position: center;
+    background-size: 100% 100%;
 }
 
 .news-latter-box {
@@ -978,7 +1027,7 @@ div#carouselExampleControls .carousel-control-next {
 }
 
 section.news-letter-section {
-  margin: 127px 0px 157px 0px;
+  margin: 80px 0px 130px  0px;
 }
 
 @media screen and (max-width: 576px) {
@@ -997,14 +1046,19 @@ section.news-letter-section {
 .footer-logo {
   display: flex;
   justify-content: center;
+  margin-top: 4rem;
 }
-
+.footer-logo img {
+  transform: scale(0.8);
+}
 .footer-start {
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
-
+.footer-details .col-md-6:first-child {
+  border-right: 1px solid #707070;
+}
 .footer-details {
-  margin-top: 130px;
+  margin-top: 70px;
 }
 
 .footer-logo div h3 {
@@ -1040,7 +1094,7 @@ section.news-letter-section {
 }
 
 .for-left-side-barder {
-  border-right: 1px solid;
+  /* border-right: 1px solid; */
 }
 
 .footer-single-side .footer-links .email {
@@ -1065,4 +1119,11 @@ section.news-letter-section {
   color: #ffffff;
   font-size: 13px;
   opacity: 0.5;
+}
+@media(max-width:480px){
+  .for-all-copy-right-links div a,
+.for-all-copy-right-links div span {
+  font-size: 8px;
+}
+
 }
