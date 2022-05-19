@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="css/about-us.css">
 <!--    Custom CSS-->
 <!-- contact us page start here -->
-<section class="contact-us-page">
+<section class="contact-us-page our_brand_sec">
     <section class="section-head">
         <div class="head">
             <h4>Our Brands</h4>

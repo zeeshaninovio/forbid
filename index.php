@@ -372,7 +372,7 @@ header#header {
                     <div class="single-wine-for-everyone">
                         <div class="for_texta_at_top mt-5">
                             <h6 class="yellowish-heading">Wine is for Everyone</h6>
-                            <h1>For Vegans</h1>
+                            <h1>Organic</h1>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt
@@ -392,7 +392,7 @@ header#header {
                         </div>
                         <div class="for_texta_at_top">
                             <h6 class="yellowish-heading">Wine is for Everyone</h6>
-                            <h1>For Vegans</h1>
+                            <h1>Bio Dynamic</h1>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                 incididunt

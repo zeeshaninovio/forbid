@@ -725,6 +725,7 @@
                 <ul class="paginations">
                     <li class="active">1</li>
                     <li>2</li>
+                    <li>3</li>
                     <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
                 </ul>
 

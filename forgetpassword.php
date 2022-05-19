@@ -33,7 +33,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row align-items-center">
+                            <div class="row align-items-center mt-3">
                                 <div class="col-md-8">
                                     <p class="haveacc1">6 digit code will be sent to your email</p>
                                     <small>

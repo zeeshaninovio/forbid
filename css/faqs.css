@@ -14,8 +14,8 @@
 }
   div#accordion {
     /* margin-top: 30px; */
-    border: 1px solid #777575;
-    padding: 24px 0px;
+    border: 1px solid #cccccc61;
+    /* padding: 24px 0px; */
     padding-bottom: 0px;
   }
   div#accordion .card-header {
@@ -24,7 +24,7 @@
     padding: 17px 24px;
   }
   div#accordion .card:not(:first-child) {
-    border-top: 1px solid #777575 !important;
+    border-top: 1px solid #cccccc61 !important;
 }
   div#accordion .card {
     /* border-top: 1px solid #777575 !important; */
@@ -33,9 +33,8 @@
   }
   div#accordion a.card-link {
     color: #000;
-    font-family: "playfair-regular";
-    font-size: 15px;
-    font-weight: 600;
+    font-family: "pfb";
+    font-size: 16px;
   }
   .faq-wrapper div#accordion i.fa.fa-angle-down {
     font-weight: bold;
@@ -52,6 +51,8 @@
   .faq-wrapper .collapse p {
     font-size: 12px;
     padding: 0 3rem;
+    font-weight: 100;
+    margin-top: -10px;
 }
   a.card-link[aria-expanded="true"] .fa-angle-down::before {
     content: "\f068";

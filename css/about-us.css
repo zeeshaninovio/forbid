@@ -87,14 +87,24 @@ section.section-detail-form h3{
 section.section-detail-form .ourbrandcarousel img {
     padding: 0 7rem;
 } 
+section.about-us-page section.section-detail-form h3{
+    padding: 0;
+}
 @media(max-width:480px){
     section.section-detail-form .ourbrandcarousel img{
         padding: 15px 10px 0 10px;
     }
     .slick-prev{
         left: 0;
+        width: 20px;
+    height: 20px;
     }
     .slick-next{
         right: 0;
+        width: 20px;
+    height: 20px;
+    }
+    section.our_brand_sec section.section-detail-form h3 {
+        padding-left: 0;
     }
 }

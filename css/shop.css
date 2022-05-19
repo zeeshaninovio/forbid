@@ -51,7 +51,7 @@ span.del-txt {
   position: absolute;
   right: 6rem;
   top: unset;
-  bottom: -3.5rem;
+  bottom: -5.5rem;
   /* left: 9px; */
   width: 13px;
   height: 13px;
@@ -66,7 +66,7 @@ span.del-txt {
   position: absolute;
   right: 6rem;
   top: unset;
-  bottom: -3.5rem;
+  bottom: -5.5rem;
   /* left: 9px; */
   width: 13px;
   height: 13px;
@@ -459,7 +459,7 @@ section.right_bar_addtocart.show {
   text-decoration: none;
 }
 .shop_sec ul.paginations {
-  margin: 40px auto 40px;
+  margin: 71px auto 80px 17rem;
   padding: 0;
   list-style: none;
   display: table;
@@ -490,6 +490,14 @@ section.right_bar_addtocart.show {
   background: #fff;
     border: 0;
     border-radius: unset;
+    font-family: 'tmo';
+}
+section.shop_sec .show_p .dropdown-menu a {
+  font-family: 'tmo';
+}
+
+section.shop_sec .sort_features .dropdown-menu a {
+  font-family: 'tmo';
 }
 .btn-outline-secondary.active, .btn-outline-secondary:active, .show_p>.btn-outline-secondary.dropdown-toggle{
   background-color: #ccc;
@@ -685,7 +693,7 @@ div[slider] > input[type="range"]::-ms-tooltip {
   display: flex;
   align-items: center;
   gap: 15px;
-  justify-content: center;
+  /* justify-content: center; */
 }
 /* shop by size css end here */
 /* shop by brand css start here */
@@ -693,7 +701,7 @@ div[slider] > input[type="range"]::-ms-tooltip {
   display: flex;
   align-items: center;
   gap: 5px;
-  justify-content: center;
+  /* justify-content: center; */
 }
 /* shop by brand css End here */
 /* best seller css start here */
